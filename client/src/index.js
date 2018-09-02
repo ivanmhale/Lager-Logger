@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 
+import Provider from "./context/Provider";
+
 import Header from "./components/Header";
 import Modal from "./components/Modal";
 import Search from "./components/Search";
@@ -20,11 +22,13 @@ class App extends Component {
   render() {
     console.log(this.state.user);
     return (
-      <div className="app">
-        <Header></Header>
-        <Search></Search>
-        <Modal></Modal>
-      </div>
+      <Provider>
+        <div className="app">
+          <Header user={this.state.user} />
+          <Search />
+          <Modal />
+        </div>
+      </Provider>
     );
   }
 }
