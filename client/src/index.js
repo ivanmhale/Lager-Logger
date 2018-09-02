@@ -7,6 +7,7 @@ class App extends Component {
     return (
       <div className="app">
         <a href="/auth/google">Sign in with Google</a>
+        <a href="/auth/facebook">Sign in with Facebook</a>
       </div>
     )
   }
