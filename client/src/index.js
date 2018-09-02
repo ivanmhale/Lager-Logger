@@ -1,18 +1,15 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
-import registerServiceWorker from "./registerServiceWorker";
+import "./styles/index.css";
 
 class App extends Component {
-  render() {
+  render(){
     return (
       <div className="app">
-        <a href="/auth/google">google</a>
-        <a href="/auth/facebook">facebook</a>
+        <a href="/auth/google">Sign in with Google</a>
       </div>
-    );
+    )
   }
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
-registerServiceWorker();
+ReactDOM.render(<App />, document.querySelector("#root"));
