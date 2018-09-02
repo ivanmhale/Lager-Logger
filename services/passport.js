@@ -49,20 +49,19 @@ passport.use(
       proxy: true
     },
     async (accessToken, refreshToken, profile, done) => {
-      // const existingUser = await User.findOne({ userId: profile.id });
-      //
-      // if (existingUser) {
-      //   return done(null, existingUser);
-      // }
-      //
-      // const user = await new User({
-      //   userId: profile.id,
-      //   name: profile.displayName,
-      //   photo: profile.photos[0].value
-      // }).save();
-      //
-      // done(null, user);
-      console.log(profile);
+      const existingUser = await User.findOne({ userId: profile.id });
+
+      if (existingUser) {
+        return done(null, existingUser);
+      }
+
+      const user = await new User({
+        userId: profile.id,
+        name: profile.displayName,
+        photo: profile.photos[0].value
+      }).save();
+
+      done(null, user);
     }
   )
 );

@@ -1,15 +1,31 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 
+import Header from "./components/Header";
+import Modal from "./components/Modal";
+import Search from "./components/Search";
+
 class App extends Component {
-  render(){
+  componentDidMount() {
+    fetch("/auth/user")
+      .then(res => res.json())
+      .then(parsed => this.setState({ user: parsed }));
+  }
+
+  state = {
+    user: {}
+  };
+
+  render() {
+    console.log(this.state.user);
     return (
       <div className="app">
-        <a href="/auth/google">Sign in with Google</a>
-        <a href="/auth/facebook">Sign in with Facebook</a>
+        <Header></Header>
+        <Search></Search>
+        <Modal></Modal>
       </div>
-    )
+    );
   }
 }
 
