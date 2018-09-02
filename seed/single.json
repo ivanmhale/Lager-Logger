@@ -1,0 +1,3262 @@
+{
+  "meta": {
+    "code": 200,
+    "response_time": { "time": 0.201, "measure": "seconds" },
+    "init_time": { "time": 0, "measure": "seconds" }
+  },
+  "notifications": [],
+  "response": {
+    "beer": {
+      "bid": 16630,
+      "beer_name": "Celebration Ale",
+      "beer_label":
+        "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+      "beer_label_hd":
+        "https://untappd.akamaized.net/site/beer_logos_hd/beer-16630_141c8_hd.jpeg",
+      "beer_abv": 6.8,
+      "beer_ibu": 65,
+      "beer_description":
+        "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+      "beer_style": "IPA - American",
+      "is_in_production": 1,
+      "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+      "is_homebrew": 0,
+      "created_at": "Fri, 24 Dec 2010 12:10:42 +0000",
+      "rating_count": 149608,
+      "rating_score": 3.74543,
+      "stats": {
+        "total_count": 254694,
+        "monthly_count": 134,
+        "total_user_count": 167052,
+        "user_count": 0
+      },
+      "brewery": {
+        "brewery_id": 1142,
+        "brewery_name": "Sierra Nevada Brewing Co.",
+        "brewery_slug": "sierra-nevada-brewing-co",
+        "brewery_type": "Regional Brewery",
+        "brewery_page_url": "/SierraNevada",
+        "brewery_label":
+          "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+        "country_name": "United States",
+        "contact": {
+          "twitter": "SierraNevada",
+          "facebook": "http://www.facebook.com/sierranevadabeer",
+          "url": "http://www.sierranevada.com/"
+        },
+        "location": {
+          "brewery_city": "Chico",
+          "brewery_state": "CA",
+          "lat": 39.7242,
+          "lng": -121.815
+        }
+      },
+      "auth_rating": 0,
+      "wish_list": false,
+      "media": {
+        "count": 10,
+        "items": [
+          {
+            "photo_id": 187577350,
+            "photo": {
+              "photo_img_sm":
+                "https://untappd.akamaized.net/photos/2018_08_13/7a5ca4ddc736e47e2cd64c44a4e335d3_200x200.jpeg",
+              "photo_img_md":
+                "https://untappd.akamaized.net/photos/2018_08_13/7a5ca4ddc736e47e2cd64c44a4e335d3_640x640.jpeg",
+              "photo_img_lg":
+                "https://untappd.akamaized.net/photos/2018_08_13/7a5ca4ddc736e47e2cd64c44a4e335d3_1280x1280.jpeg",
+              "photo_img_og":
+                "https://untappd.akamaized.net/photos/2018_08_13/7a5ca4ddc736e47e2cd64c44a4e335d3_raw.jpeg"
+            },
+            "created_at": "Mon, 13 Aug 2018 19:08:24 +0000",
+            "checkin_id": 638532913,
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "is_in_production": 1,
+              "beer_style_id": 128,
+              "beer_style": "IPA - American",
+              "rating_score": 3.745,
+              "rating_count": 149608,
+              "count": 149608,
+              "beer_active": 1,
+              "has_had": false,
+              "auth_rating": 0,
+              "wish_list": false
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "user": {
+              "uid": 24153,
+              "user_name": "chaulmoogra",
+              "first_name": "Kris",
+              "last_name": "J",
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/7f7244e6b0bbaa057e398c2860c273c8_100x100.jpeg",
+              "is_private": 0
+            },
+            "venue": [
+              {
+                "venue_id": 802423,
+                "venue_name": "Brewya Brewing - Roswell",
+                "venue_slug": "brewya-brewing-roswell",
+                "primary_category": "Nightlife Spot",
+                "parent_category_id": "4d4b7105d754a06376d81259",
+                "categories": {
+                  "count": 1,
+                  "items": [
+                    {
+                      "category_name": "Brewery",
+                      "category_id": "50327c8591d4c4b30a586d5d",
+                      "is_primary": true
+                    }
+                  ]
+                },
+                "location": {
+                  "venue_address": "4910 Surrey Dr",
+                  "venue_city": "Roswell",
+                  "venue_state": "GA",
+                  "lat": 34.0672,
+                  "lng": -84.4197
+                },
+                "contact": { "twitter": "", "venue_url": "" },
+                "foursquare": {
+                  "foursquare_id": "51b7d1d28bbd9dcba73d0ccf",
+                  "foursquare_url": "http://4sq.com/11FPkb6"
+                },
+                "venue_icon": {
+                  "sm":
+                    "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_64.png",
+                  "md":
+                    "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png",
+                  "lg":
+                    "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"
+                }
+              }
+            ]
+          },
+          {
+            "photo_id": 187540087,
+            "photo": {
+              "photo_img_sm":
+                "https://untappd.akamaized.net/photos/2018_08_13/00dbcf3c6c6cdf6397e216be53981b82_200x200.jpg",
+              "photo_img_md":
+                "https://untappd.akamaized.net/photos/2018_08_13/00dbcf3c6c6cdf6397e216be53981b82_640x640.jpg",
+              "photo_img_lg":
+                "https://untappd.akamaized.net/photos/2018_08_13/00dbcf3c6c6cdf6397e216be53981b82_1280x1280.jpg",
+              "photo_img_og":
+                "https://untappd.akamaized.net/photos/2018_08_13/00dbcf3c6c6cdf6397e216be53981b82_raw.jpg"
+            },
+            "created_at": "Mon, 13 Aug 2018 05:22:13 +0000",
+            "checkin_id": 638449202,
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "is_in_production": 1,
+              "beer_style_id": 128,
+              "beer_style": "IPA - American",
+              "rating_score": 3.745,
+              "rating_count": 149608,
+              "count": 149608,
+              "beer_active": 1,
+              "has_had": false,
+              "auth_rating": 0,
+              "wish_list": false
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "user": {
+              "uid": 3210358,
+              "user_name": "Raconteur",
+              "first_name": "Kathie",
+              "last_name": "",
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/e0bdc3fe24b163c9f3b74d3f856027d0_100x100.jpg",
+              "is_private": 0
+            },
+            "venue": [
+              {
+                "venue_id": 7041,
+                "venue_name": "The Eastside Club Tavern",
+                "venue_slug": "the-eastside-club-tavern",
+                "primary_category": "Nightlife Spot",
+                "parent_category_id": "4d4b7105d754a06376d81259",
+                "categories": {
+                  "count": 3,
+                  "items": [
+                    {
+                      "category_name": "Beer Garden",
+                      "category_id": "4bf58dd8d48988d117941735",
+                      "is_primary": true
+                    },
+                    {
+                      "category_name": "Bar",
+                      "category_id": "4bf58dd8d48988d116941735",
+                      "is_primary": false
+                    },
+                    {
+                      "category_name": "Pub",
+                      "category_id": "4bf58dd8d48988d11b941735",
+                      "is_primary": false
+                    }
+                  ]
+                },
+                "location": {
+                  "venue_address": "410 4th Ave E",
+                  "venue_city": "Olympia",
+                  "venue_state": "WA",
+                  "lat": 47.0455,
+                  "lng": -122.898
+                },
+                "contact": {
+                  "twitter": "",
+                  "venue_url": "http://www.theeastsideclub.com? "
+                },
+                "foursquare": {
+                  "foursquare_id": "4aa345f6f964a520cd4320e3",
+                  "foursquare_url": "http://4sq.com/dhI9Sh"
+                },
+                "venue_icon": {
+                  "sm":
+                    "https://ss3.4sqi.net/img/categories_v2/nightlife/beergarden_bg_64.png",
+                  "md":
+                    "https://ss3.4sqi.net/img/categories_v2/nightlife/beergarden_bg_88.png",
+                  "lg":
+                    "https://ss3.4sqi.net/img/categories_v2/nightlife/beergarden_bg_88.png"
+                }
+              }
+            ]
+          },
+          {
+            "photo_id": 187344510,
+            "photo": {
+              "photo_img_sm":
+                "https://untappd.akamaized.net/photos/2018_08_12/a3c0f4c1b178bfc161afe2d1123dc837_200x200.jpg",
+              "photo_img_md":
+                "https://untappd.akamaized.net/photos/2018_08_12/a3c0f4c1b178bfc161afe2d1123dc837_640x640.jpg",
+              "photo_img_lg":
+                "https://untappd.akamaized.net/photos/2018_08_12/a3c0f4c1b178bfc161afe2d1123dc837_1280x1280.jpg",
+              "photo_img_og":
+                "https://untappd.akamaized.net/photos/2018_08_12/a3c0f4c1b178bfc161afe2d1123dc837_raw.jpg"
+            },
+            "created_at": "Sun, 12 Aug 2018 02:13:13 +0000",
+            "checkin_id": 637914775,
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "is_in_production": 1,
+              "beer_style_id": 128,
+              "beer_style": "IPA - American",
+              "rating_score": 3.745,
+              "rating_count": 149608,
+              "count": 149608,
+              "beer_active": 1,
+              "has_had": false,
+              "auth_rating": 0,
+              "wish_list": false
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "user": {
+              "uid": 4138022,
+              "user_name": "Megz_Jelley",
+              "first_name": "Megan",
+              "last_name": "",
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/4ea3a5f61a6d413054929fbae3de52e4_100x100.jpg",
+              "is_private": 0
+            },
+            "venue": [
+              {
+                "venue_id": 305179,
+                "venue_name": "Ocean Park, WA",
+                "venue_slug": "ocean-park-wa",
+                "primary_category": "Outdoors & Recreation",
+                "parent_category_id": "4d4b7105d754a06377d81259",
+                "categories": {
+                  "count": 1,
+                  "items": [
+                    {
+                      "category_name": "City",
+                      "category_id": "50aa9e094b90af0d42d5de0d",
+                      "is_primary": true
+                    }
+                  ]
+                },
+                "location": {
+                  "venue_address": "",
+                  "venue_city": "",
+                  "venue_state": "WA",
+                  "lat": 46.4895,
+                  "lng": -124.051
+                },
+                "contact": { "twitter": "", "venue_url": "" },
+                "foursquare": {
+                  "foursquare_id": "4c6f54bf9375a09362df0337",
+                  "foursquare_url": "http://4sq.com/czNS8A"
+                },
+                "venue_icon": {
+                  "sm":
+                    "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_64.png",
+                  "md":
+                    "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_88.png",
+                  "lg":
+                    "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_88.png"
+                }
+              }
+            ]
+          },
+          {
+            "photo_id": 187136977,
+            "photo": {
+              "photo_img_sm":
+                "https://untappd.akamaized.net/photos/2018_08_11/e4bd365a6a0851de96558a2c9de62769_200x200.jpg",
+              "photo_img_md":
+                "https://untappd.akamaized.net/photos/2018_08_11/e4bd365a6a0851de96558a2c9de62769_640x640.jpg",
+              "photo_img_lg":
+                "https://untappd.akamaized.net/photos/2018_08_11/e4bd365a6a0851de96558a2c9de62769_1280x1280.jpg",
+              "photo_img_og":
+                "https://untappd.akamaized.net/photos/2018_08_11/e4bd365a6a0851de96558a2c9de62769_raw.jpg"
+            },
+            "created_at": "Sat, 11 Aug 2018 15:36:15 +0000",
+            "checkin_id": 637318959,
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "is_in_production": 1,
+              "beer_style_id": 128,
+              "beer_style": "IPA - American",
+              "rating_score": 3.745,
+              "rating_count": 149608,
+              "count": 149608,
+              "beer_active": 1,
+              "has_had": false,
+              "auth_rating": 0,
+              "wish_list": false
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "user": {
+              "uid": 4686657,
+              "user_name": "montz182",
+              "first_name": "Grant",
+              "last_name": "M",
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/d1e3462190d94db78fa0140ca26770da_100x100.jpg",
+              "is_private": 0
+            },
+            "venue": [
+              {
+                "venue_id": 2264921,
+                "venue_name": "dive",
+                "venue_slug": "dive",
+                "primary_category": "Nightlife Spot",
+                "parent_category_id": "4d4b7105d754a06376d81259",
+                "categories": {
+                  "count": 1,
+                  "items": [
+                    {
+                      "category_name": "Bar",
+                      "category_id": "4bf58dd8d48988d116941735",
+                      "is_primary": true
+                    }
+                  ]
+                },
+                "location": {
+                  "venue_address": "",
+                  "venue_city": "",
+                  "venue_state": "",
+                  "lat": 22.9941,
+                  "lng": 120.196
+                },
+                "contact": { "twitter": "", "venue_url": "" },
+                "foursquare": {
+                  "foursquare_id": "5363a82111d225cf26b579cd",
+                  "foursquare_url": "http://4sq.com/1rWKpyg"
+                },
+                "venue_icon": {
+                  "sm":
+                    "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_64.png",
+                  "md":
+                    "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png",
+                  "lg":
+                    "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"
+                }
+              }
+            ]
+          },
+          {
+            "photo_id": 187086010,
+            "photo": {
+              "photo_img_sm":
+                "https://untappd.akamaized.net/photos/2018_08_11/ca6fddc195836f1f5c3b950fc162c284_200x200.jpeg",
+              "photo_img_md":
+                "https://untappd.akamaized.net/photos/2018_08_11/ca6fddc195836f1f5c3b950fc162c284_640x640.jpeg",
+              "photo_img_lg":
+                "https://untappd.akamaized.net/photos/2018_08_11/ca6fddc195836f1f5c3b950fc162c284_1280x1280.jpeg",
+              "photo_img_og":
+                "https://untappd.akamaized.net/photos/2018_08_11/ca6fddc195836f1f5c3b950fc162c284_raw.jpeg"
+            },
+            "created_at": "Sat, 11 Aug 2018 04:46:09 +0000",
+            "checkin_id": 637204401,
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "is_in_production": 1,
+              "beer_style_id": 128,
+              "beer_style": "IPA - American",
+              "rating_score": 3.745,
+              "rating_count": 149608,
+              "count": 149608,
+              "beer_active": 1,
+              "has_had": false,
+              "auth_rating": 0,
+              "wish_list": false
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "user": {
+              "uid": 353603,
+              "user_name": "fromthelandofskybluewaters",
+              "first_name": "Michael",
+              "last_name": "L",
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/e91ac8fb86e4879d84061057e98e81a7_100x100.jpeg",
+              "is_private": 0
+            },
+            "venue": [
+              {
+                "venue_id": 8021191,
+                "venue_name": "Nutrishop Garden Grove",
+                "venue_slug": "nutrishop-garden-grove",
+                "primary_category": "Shop & Service",
+                "parent_category_id": "4d4b7105d754a06378d81259",
+                "categories": {
+                  "count": 1,
+                  "items": [
+                    {
+                      "category_name": "Health Food Store",
+                      "category_id": "50aa9e744b90af0d42d5de0e",
+                      "is_primary": true
+                    }
+                  ]
+                },
+                "location": {
+                  "venue_address": "6062 Chapman Ave",
+                  "venue_city": "Garden Grove",
+                  "venue_state": "CA",
+                  "lat": 33.7882,
+                  "lng": -118.027
+                },
+                "contact": { "twitter": "", "venue_url": "" },
+                "foursquare": {
+                  "foursquare_id": "4c97a2d738dd8cfa4a6be562",
+                  "foursquare_url": "http://4sq.com/aS7F5v"
+                },
+                "venue_icon": {
+                  "sm":
+                    "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_bg_64.png",
+                  "md":
+                    "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_bg_88.png",
+                  "lg":
+                    "https://ss3.4sqi.net/img/categories_v2/shops/food_grocery_bg_88.png"
+                }
+              }
+            ]
+          },
+          {
+            "photo_id": 187032547,
+            "photo": {
+              "photo_img_sm":
+                "https://untappd.akamaized.net/photos/2018_08_11/640ddf451b649c4a461293a662412fde_200x200.jpeg",
+              "photo_img_md":
+                "https://untappd.akamaized.net/photos/2018_08_11/640ddf451b649c4a461293a662412fde_640x640.jpeg",
+              "photo_img_lg":
+                "https://untappd.akamaized.net/photos/2018_08_11/640ddf451b649c4a461293a662412fde_1280x1280.jpeg",
+              "photo_img_og":
+                "https://untappd.akamaized.net/photos/2018_08_11/640ddf451b649c4a461293a662412fde_raw.jpeg"
+            },
+            "created_at": "Sat, 11 Aug 2018 00:01:12 +0000",
+            "checkin_id": 637029229,
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "is_in_production": 1,
+              "beer_style_id": 128,
+              "beer_style": "IPA - American",
+              "rating_score": 3.745,
+              "rating_count": 149608,
+              "count": 149608,
+              "beer_active": 1,
+              "has_had": false,
+              "auth_rating": 0,
+              "wish_list": false
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "user": {
+              "uid": 1313820,
+              "user_name": "marcomar",
+              "first_name": "marco",
+              "last_name": "m",
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/8c65df983a6858e439de2ce6ea9ec646_100x100.jpeg",
+              "is_private": 0
+            },
+            "venue": [
+              {
+                "venue_id": 6067788,
+                "venue_name": "Nuevo Manjarres",
+                "venue_slug": "nuevo-manjarres",
+                "primary_category": "Nightlife Spot",
+                "parent_category_id": "4d4b7105d754a06376d81259",
+                "categories": {
+                  "count": 1,
+                  "items": [
+                    {
+                      "category_name": "Brewery",
+                      "category_id": "50327c8591d4c4b30a586d5d",
+                      "is_primary": true
+                    }
+                  ]
+                },
+                "location": {
+                  "venue_address": "plaza de santa cruz",
+                  "venue_city": "Valladolid",
+                  "venue_state": "Castilla y León",
+                  "lat": 41.6508,
+                  "lng": -4.72057
+                },
+                "contact": { "twitter": "", "venue_url": "" },
+                "foursquare": {
+                  "foursquare_id": "58d05df29465dd1d5f607714",
+                  "foursquare_url": "http://4sq.com/2mNSMj3"
+                },
+                "venue_icon": {
+                  "sm":
+                    "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_64.png",
+                  "md":
+                    "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png",
+                  "lg":
+                    "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"
+                }
+              }
+            ]
+          },
+          {
+            "photo_id": 186996487,
+            "photo": {
+              "photo_img_sm":
+                "https://untappd.akamaized.net/photos/2018_08_10/716f2c121f8b5dbc7510fdfea29d3070_200x200.jpg",
+              "photo_img_md":
+                "https://untappd.akamaized.net/photos/2018_08_10/716f2c121f8b5dbc7510fdfea29d3070_640x640.jpg",
+              "photo_img_lg":
+                "https://untappd.akamaized.net/photos/2018_08_10/716f2c121f8b5dbc7510fdfea29d3070_1280x1280.jpg",
+              "photo_img_og":
+                "https://untappd.akamaized.net/photos/2018_08_10/716f2c121f8b5dbc7510fdfea29d3070_raw.jpg"
+            },
+            "created_at": "Fri, 10 Aug 2018 21:52:44 +0000",
+            "checkin_id": 636919443,
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "is_in_production": 1,
+              "beer_style_id": 128,
+              "beer_style": "IPA - American",
+              "rating_score": 3.745,
+              "rating_count": 149608,
+              "count": 149608,
+              "beer_active": 1,
+              "has_had": false,
+              "auth_rating": 0,
+              "wish_list": false
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "user": {
+              "uid": 822552,
+              "user_name": "Dkramb",
+              "first_name": "David",
+              "last_name": "K",
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/526ccfc6412b86fbf80ffd1ae65cf5f5_100x100.jpg",
+              "is_private": 0
+            },
+            "venue": [
+              {
+                "venue_id": 2940197,
+                "venue_name": "Forest Lake",
+                "venue_slug": "forest-lake",
+                "primary_category": "Residence",
+                "parent_category_id": "4e67e38e036454776db1fb3a",
+                "categories": {
+                  "count": 1,
+                  "items": [
+                    {
+                      "category_name": "Housing Development",
+                      "category_id": "4f2a210c4b9023bd5841ed28",
+                      "is_primary": true
+                    }
+                  ]
+                },
+                "location": {
+                  "venue_address": "",
+                  "venue_city": "Findlay",
+                  "venue_state": "OH",
+                  "lat": 41.0484,
+                  "lng": -83.5768
+                },
+                "contact": { "twitter": "", "venue_url": "" },
+                "foursquare": {
+                  "foursquare_id": "4dc9d438e4cde9e42f78f3b3",
+                  "foursquare_url": "http://4sq.com/mmVRb2"
+                },
+                "venue_icon": {
+                  "sm":
+                    "https://ss3.4sqi.net/img/categories_v2/building/housingdevelopment_bg_64.png",
+                  "md":
+                    "https://ss3.4sqi.net/img/categories_v2/building/housingdevelopment_bg_88.png",
+                  "lg":
+                    "https://ss3.4sqi.net/img/categories_v2/building/housingdevelopment_bg_88.png"
+                }
+              }
+            ]
+          },
+          {
+            "photo_id": 186963540,
+            "photo": {
+              "photo_img_sm":
+                "https://untappd.akamaized.net/photos/2018_08_10/4aa569c284045a08e697f9a3243172ba_200x200.jpg",
+              "photo_img_md":
+                "https://untappd.akamaized.net/photos/2018_08_10/4aa569c284045a08e697f9a3243172ba_640x640.jpg",
+              "photo_img_lg":
+                "https://untappd.akamaized.net/photos/2018_08_10/4aa569c284045a08e697f9a3243172ba_1280x1280.jpg",
+              "photo_img_og":
+                "https://untappd.akamaized.net/photos/2018_08_10/4aa569c284045a08e697f9a3243172ba_raw.jpg"
+            },
+            "created_at": "Fri, 10 Aug 2018 20:03:52 +0000",
+            "checkin_id": 636837391,
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "is_in_production": 1,
+              "beer_style_id": 128,
+              "beer_style": "IPA - American",
+              "rating_score": 3.745,
+              "rating_count": 149608,
+              "count": 149608,
+              "beer_active": 1,
+              "has_had": false,
+              "auth_rating": 0,
+              "wish_list": false
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "user": {
+              "uid": 1062621,
+              "user_name": "stappmett",
+              "first_name": "Vegard",
+              "last_name": "M",
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/89a97fb00793bd14636bac87c5569a0f_100x100.jpg",
+              "is_private": 0
+            },
+            "venue": [
+              {
+                "venue_id": 1288735,
+                "venue_name": "Sædalen",
+                "venue_slug": "saedalen",
+                "primary_category": "Outdoors & Recreation",
+                "parent_category_id": "4d4b7105d754a06377d81259",
+                "categories": {
+                  "count": 1,
+                  "items": [
+                    {
+                      "category_name": "Neighborhood",
+                      "category_id": "4f2a25ac4b909258e854f55f",
+                      "is_primary": true
+                    }
+                  ]
+                },
+                "location": {
+                  "venue_address": "",
+                  "venue_city": "",
+                  "venue_state": "",
+                  "lat": 60.342,
+                  "lng": 5.3884
+                },
+                "contact": { "twitter": "", "venue_url": "" },
+                "foursquare": {
+                  "foursquare_id": "4be44120cf200f47cfab113c",
+                  "foursquare_url": "http://4sq.com/cM7N26"
+                },
+                "venue_icon": {
+                  "sm":
+                    "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_64.png",
+                  "md":
+                    "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_88.png",
+                  "lg":
+                    "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_88.png"
+                }
+              }
+            ]
+          },
+          {
+            "photo_id": 186678324,
+            "photo": {
+              "photo_img_sm":
+                "https://untappd.akamaized.net/photos/2018_08_08/9cd186e871e7ad17fa7f35fe1ed811e3_200x200.jpg",
+              "photo_img_md":
+                "https://untappd.akamaized.net/photos/2018_08_08/9cd186e871e7ad17fa7f35fe1ed811e3_640x640.jpg",
+              "photo_img_lg":
+                "https://untappd.akamaized.net/photos/2018_08_08/9cd186e871e7ad17fa7f35fe1ed811e3_1280x1280.jpg",
+              "photo_img_og":
+                "https://untappd.akamaized.net/photos/2018_08_08/9cd186e871e7ad17fa7f35fe1ed811e3_raw.jpg"
+            },
+            "created_at": "Wed, 08 Aug 2018 22:57:30 +0000",
+            "checkin_id": 636106080,
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "is_in_production": 1,
+              "beer_style_id": 128,
+              "beer_style": "IPA - American",
+              "rating_score": 3.745,
+              "rating_count": 149608,
+              "count": 149608,
+              "beer_active": 1,
+              "has_had": false,
+              "auth_rating": 0,
+              "wish_list": false
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "user": {
+              "uid": 3989612,
+              "user_name": "SBurke23",
+              "first_name": "Steven",
+              "last_name": "",
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/58d69df76ca3ea29e018473d2fa14408_100x100.jpg",
+              "is_private": 0
+            },
+            "venue": [
+              {
+                "venue_id": 8074654,
+                "venue_name": "St. Mary of the Snow R.C. Church",
+                "venue_slug": "st-mary-of-the-snow-rc-church",
+                "primary_category": "Professional & Other Places",
+                "parent_category_id": "4d4b7105d754a06375d81259",
+                "categories": {
+                  "count": 2,
+                  "items": [
+                    {
+                      "category_name": "Church",
+                      "category_id": "4bf58dd8d48988d132941735",
+                      "is_primary": true
+                    },
+                    {
+                      "category_name": "Elementary School",
+                      "category_id": "4f4533804b9074f6e4fb0105",
+                      "is_primary": false
+                    }
+                  ]
+                },
+                "location": {
+                  "venue_address": "36 Cedar St",
+                  "venue_city": "Saugerties",
+                  "venue_state": "NY",
+                  "lat": 42.0777,
+                  "lng": -73.9471
+                },
+                "contact": { "twitter": "", "venue_url": "" },
+                "foursquare": {
+                  "foursquare_id": "4be776c50e5a9c7491c28eea",
+                  "foursquare_url": "http://4sq.com/asEyQc"
+                },
+                "venue_icon": {
+                  "sm":
+                    "https://ss3.4sqi.net/img/categories_v2/building/religious_church_bg_64.png",
+                  "md":
+                    "https://ss3.4sqi.net/img/categories_v2/building/religious_church_bg_88.png",
+                  "lg":
+                    "https://ss3.4sqi.net/img/categories_v2/building/religious_church_bg_88.png"
+                }
+              }
+            ]
+          },
+          {
+            "photo_id": 186597312,
+            "photo": {
+              "photo_img_sm":
+                "https://untappd.akamaized.net/photos/2018_08_08/279eabdd71713fa34c2195c8bb4de92d_200x200.jpg",
+              "photo_img_md":
+                "https://untappd.akamaized.net/photos/2018_08_08/279eabdd71713fa34c2195c8bb4de92d_640x640.jpg",
+              "photo_img_lg":
+                "https://untappd.akamaized.net/photos/2018_08_08/279eabdd71713fa34c2195c8bb4de92d_1280x1280.jpg",
+              "photo_img_og":
+                "https://untappd.akamaized.net/photos/2018_08_08/279eabdd71713fa34c2195c8bb4de92d_raw.jpg"
+            },
+            "created_at": "Wed, 08 Aug 2018 10:34:08 +0000",
+            "checkin_id": 635918253,
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "is_in_production": 1,
+              "beer_style_id": 128,
+              "beer_style": "IPA - American",
+              "rating_score": 3.745,
+              "rating_count": 149608,
+              "count": 149608,
+              "beer_active": 1,
+              "has_had": false,
+              "auth_rating": 0,
+              "wish_list": false
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "user": {
+              "uid": 4242177,
+              "user_name": "aleks700box",
+              "first_name": "Aleksei",
+              "last_name": "A",
+              "user_avatar":
+                "https://gravatar.com/avatar/0fa63c17c8995d42816e4abaef759d02?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+              "is_private": 0
+            },
+            "venue": [[]]
+          }
+        ]
+      },
+      "checkins": {
+        "count": 15,
+        "items": [
+          {
+            "checkin_id": 638683071,
+            "created_at": "Tue, 14 Aug 2018 02:29:30 +0000",
+            "checkin_comment": "",
+            "rating_score": 0,
+            "user": {
+              "uid": 5806719,
+              "user_name": "Nikhilm653",
+              "first_name": "Nikhil",
+              "last_name": "M.",
+              "location": "",
+              "url": "",
+              "is_supporter": 0,
+              "bio": "",
+              "relationship": null,
+              "user_avatar":
+                "https://gravatar.com/avatar/4039fc3465e790a2a4b4588282378693?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+              "is_private": 0
+            },
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "beer_style": "IPA - American",
+              "has_had": false,
+              "beer_active": 1
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "venue": [],
+            "comments": { "total_count": 0, "count": 0, "items": [] },
+            "toasts": {
+              "total_count": 0,
+              "count": 0,
+              "auth_toast": false,
+              "items": []
+            },
+            "media": { "count": 0, "items": [] },
+            "source": {
+              "app_name": "Untappd for Android - (V2)",
+              "app_website": "http://untpd.it/androidapp"
+            },
+            "badges": {
+              "retro_status": false,
+              "count": 1,
+              "items": [
+                {
+                  "badge_id": 133254,
+                  "user_badge_id": 382416428,
+                  "badge_name": "Draft City",
+                  "badge_description":
+                    "Fresh from the tap is one of the best ways to enjoy a beer. Just try to use a glass and not drink directly from the tap, as tempting as it may be. That's 5 checkins with the serving style of Draft. Try 5 more for Level 2!",
+                  "created_at": "Tue, 14 Aug 2018 02:29:30 +0000",
+                  "badge_image": {
+                    "sm":
+                      "https://untappd.akamaized.net/badges/bdg_DraftCity_sm.jpg",
+                    "md":
+                      "https://untappd.akamaized.net/badges/bdg_DraftCity_md.jpg",
+                    "lg":
+                      "https://untappd.akamaized.net/badges/bdg_DraftCity_lg.jpg"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "checkin_id": 638585483,
+            "created_at": "Mon, 13 Aug 2018 21:56:53 +0000",
+            "checkin_comment": "",
+            "rating_score": 3.75,
+            "user": {
+              "uid": 5752254,
+              "user_name": "CoreyDotCom",
+              "first_name": "Corey",
+              "last_name": "L.",
+              "location": "",
+              "url": "",
+              "is_supporter": 0,
+              "bio": "",
+              "relationship": null,
+              "user_avatar":
+                "https://gravatar.com/avatar/14b0bf2ae1b43ec52078bb2f2b4c5bd7?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+              "is_private": 0
+            },
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "beer_style": "IPA - American",
+              "has_had": false,
+              "beer_active": 1
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "venue": {
+              "venue_id": 49684,
+              "venue_name": "Alamo Drafthouse Cinema",
+              "venue_slug": "alamo-drafthouse-cinema",
+              "primary_category": "Arts & Entertainment",
+              "parent_category_id": "4d4b7104d754a06370d81259",
+              "categories": {
+                "count": 1,
+                "items": [
+                  {
+                    "category_name": "Movie Theater",
+                    "category_id": "4bf58dd8d48988d17f941735",
+                    "is_primary": true
+                  }
+                ]
+              },
+              "location": {
+                "venue_address": "181 Kernstown Commons Blvd",
+                "venue_city": "Winchester",
+                "venue_state": "VA",
+                "venue_country": "United States",
+                "lat": 39.1191,
+                "lng": -78.1946
+              },
+              "contact": {
+                "twitter": "@alamowinchester",
+                "venue_url": "http://drafthouse.com/winchester"
+              },
+              "foursquare": {
+                "foursquare_id": "4b3637edf964a520313125e3",
+                "foursquare_url": "http://4sq.com/5KyhMO"
+              },
+              "venue_icon": {
+                "sm":
+                  "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_bg_64.png",
+                "md":
+                  "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_bg_88.png",
+                "lg":
+                  "https://ss3.4sqi.net/img/categories_v2/arts_entertainment/movietheater_bg_88.png"
+              },
+              "is_verified": false
+            },
+            "comments": { "total_count": 0, "count": 0, "items": [] },
+            "toasts": {
+              "total_count": 0,
+              "count": 0,
+              "auth_toast": false,
+              "items": []
+            },
+            "media": { "count": 0, "items": [] },
+            "source": {
+              "app_name": "Untappd for iPhone - (V2)",
+              "app_website": "http://untpd.it/iphoneapp"
+            },
+            "badges": { "retro_status": false, "count": 0, "items": [] }
+          },
+          {
+            "checkin_id": 638575593,
+            "created_at": "Mon, 13 Aug 2018 21:25:57 +0000",
+            "checkin_comment": "",
+            "rating_score": 3.75,
+            "user": {
+              "uid": 334841,
+              "user_name": "Flwcatty",
+              "first_name": "Mike",
+              "last_name": "D.",
+              "location": "",
+              "url": "",
+              "is_supporter": 0,
+              "bio": "",
+              "relationship": null,
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/462295a345c03f9ce439b0ab72b5a1c5_100x100.jpg",
+              "is_private": 0
+            },
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "beer_style": "IPA - American",
+              "has_had": false,
+              "beer_active": 1
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "venue": {
+              "venue_id": 1159386,
+              "venue_name": "Eagle's Landing",
+              "venue_slug": "eagles-landing",
+              "primary_category": "Residence",
+              "parent_category_id": "4e67e38e036454776db1fb3a",
+              "categories": {
+                "count": 1,
+                "items": [
+                  {
+                    "category_name": "Housing Development",
+                    "category_id": "4f2a210c4b9023bd5841ed28",
+                    "is_primary": true
+                  }
+                ]
+              },
+              "location": {
+                "venue_address": "",
+                "venue_city": "Hunters Creek",
+                "venue_state": "FL",
+                "venue_country": "United States",
+                "lat": 28.351,
+                "lng": -81.4127
+              },
+              "contact": { "twitter": "", "venue_url": "" },
+              "foursquare": {
+                "foursquare_id": "51682553e4b0e8420ff6e25c",
+                "foursquare_url": "http://4sq.com/1705nQk"
+              },
+              "venue_icon": {
+                "sm":
+                  "https://ss3.4sqi.net/img/categories_v2/building/housingdevelopment_bg_64.png",
+                "md":
+                  "https://ss3.4sqi.net/img/categories_v2/building/housingdevelopment_bg_88.png",
+                "lg":
+                  "https://ss3.4sqi.net/img/categories_v2/building/housingdevelopment_bg_88.png"
+              },
+              "is_verified": false
+            },
+            "comments": { "total_count": 0, "count": 0, "items": [] },
+            "toasts": {
+              "total_count": 0,
+              "count": 0,
+              "auth_toast": false,
+              "items": []
+            },
+            "media": { "count": 0, "items": [] },
+            "source": {
+              "app_name": "Untappd for iPhone - (V2)",
+              "app_website": "http://untpd.it/iphoneapp"
+            },
+            "badges": { "retro_status": false, "count": 0, "items": [] }
+          },
+          {
+            "checkin_id": 638532913,
+            "created_at": "Mon, 13 Aug 2018 19:08:13 +0000",
+            "checkin_comment":
+              "Backordered crib arrived, time to build it.  Celebrate.",
+            "rating_score": 5,
+            "user": {
+              "uid": 24153,
+              "user_name": "chaulmoogra",
+              "first_name": "Kris",
+              "last_name": "J.",
+              "location": "Roswell, GA",
+              "url": "http://www.brewyabrewing.com",
+              "is_supporter": 0,
+              "bio":
+                "Celebrating every day, no more public housing.\n\nNATTY 2017",
+              "relationship": null,
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/7f7244e6b0bbaa057e398c2860c273c8_100x100.jpeg",
+              "is_private": 0
+            },
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "beer_style": "IPA - American",
+              "has_had": false,
+              "beer_active": 1
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "venue": {
+              "venue_id": 802423,
+              "venue_name": "Brewya Brewing - Roswell",
+              "venue_slug": "brewya-brewing-roswell",
+              "primary_category": "Nightlife Spot",
+              "parent_category_id": "4d4b7105d754a06376d81259",
+              "categories": {
+                "count": 1,
+                "items": [
+                  {
+                    "category_name": "Brewery",
+                    "category_id": "50327c8591d4c4b30a586d5d",
+                    "is_primary": true
+                  }
+                ]
+              },
+              "location": {
+                "venue_address": "4910 Surrey Dr",
+                "venue_city": "Roswell",
+                "venue_state": "GA",
+                "venue_country": "United States",
+                "lat": 34.0672,
+                "lng": -84.4197
+              },
+              "contact": { "twitter": "", "venue_url": "" },
+              "foursquare": {
+                "foursquare_id": "51b7d1d28bbd9dcba73d0ccf",
+                "foursquare_url": "http://4sq.com/11FPkb6"
+              },
+              "venue_icon": {
+                "sm":
+                  "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_64.png",
+                "md":
+                  "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png",
+                "lg":
+                  "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"
+              },
+              "is_verified": false
+            },
+            "comments": { "total_count": 0, "count": 0, "items": [] },
+            "toasts": {
+              "total_count": 0,
+              "count": 0,
+              "auth_toast": false,
+              "items": []
+            },
+            "media": {
+              "count": 1,
+              "items": [
+                {
+                  "photo_id": 187577350,
+                  "photo": {
+                    "photo_img_sm":
+                      "https://untappd.akamaized.net/photos/2018_08_13/7a5ca4ddc736e47e2cd64c44a4e335d3_200x200.jpeg",
+                    "photo_img_md":
+                      "https://untappd.akamaized.net/photos/2018_08_13/7a5ca4ddc736e47e2cd64c44a4e335d3_640x640.jpeg",
+                    "photo_img_lg":
+                      "https://untappd.akamaized.net/photos/2018_08_13/7a5ca4ddc736e47e2cd64c44a4e335d3_1280x1280.jpeg",
+                    "photo_img_og":
+                      "https://untappd.akamaized.net/photos/2018_08_13/7a5ca4ddc736e47e2cd64c44a4e335d3_raw.jpeg"
+                  }
+                }
+              ]
+            },
+            "source": {
+              "app_name": "Untappd for Android - (V2)",
+              "app_website": "http://untpd.it/androidapp"
+            },
+            "badges": { "retro_status": false, "count": 0, "items": [] }
+          },
+          {
+            "checkin_id": 638449202,
+            "created_at": "Mon, 13 Aug 2018 05:22:07 +0000",
+            "checkin_comment": "",
+            "rating_score": 4,
+            "user": {
+              "uid": 3210358,
+              "user_name": "Raconteur",
+              "first_name": "Kathie",
+              "last_name": "",
+              "location": "",
+              "url": "",
+              "is_supporter": 0,
+              "bio": "",
+              "relationship": null,
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/e0bdc3fe24b163c9f3b74d3f856027d0_100x100.jpg",
+              "is_private": 0
+            },
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "beer_style": "IPA - American",
+              "has_had": false,
+              "beer_active": 1
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "venue": {
+              "venue_id": 7041,
+              "venue_name": "The Eastside Club Tavern",
+              "venue_slug": "the-eastside-club-tavern",
+              "primary_category": "Nightlife Spot",
+              "parent_category_id": "4d4b7105d754a06376d81259",
+              "categories": {
+                "count": 3,
+                "items": [
+                  {
+                    "category_name": "Beer Garden",
+                    "category_id": "4bf58dd8d48988d117941735",
+                    "is_primary": true
+                  },
+                  {
+                    "category_name": "Bar",
+                    "category_id": "4bf58dd8d48988d116941735",
+                    "is_primary": false
+                  },
+                  {
+                    "category_name": "Pub",
+                    "category_id": "4bf58dd8d48988d11b941735",
+                    "is_primary": false
+                  }
+                ]
+              },
+              "location": {
+                "venue_address": "410 4th Ave E",
+                "venue_city": "Olympia",
+                "venue_state": "WA",
+                "venue_country": "United States",
+                "lat": 47.0455,
+                "lng": -122.898
+              },
+              "contact": {
+                "twitter": "",
+                "venue_url": "http://www.theeastsideclub.com? "
+              },
+              "foursquare": {
+                "foursquare_id": "4aa345f6f964a520cd4320e3",
+                "foursquare_url": "http://4sq.com/dhI9Sh"
+              },
+              "venue_icon": {
+                "sm":
+                  "https://ss3.4sqi.net/img/categories_v2/nightlife/beergarden_bg_64.png",
+                "md":
+                  "https://ss3.4sqi.net/img/categories_v2/nightlife/beergarden_bg_88.png",
+                "lg":
+                  "https://ss3.4sqi.net/img/categories_v2/nightlife/beergarden_bg_88.png"
+              },
+              "is_verified": false
+            },
+            "comments": { "total_count": 0, "count": 0, "items": [] },
+            "toasts": {
+              "total_count": 0,
+              "count": 0,
+              "auth_toast": false,
+              "items": []
+            },
+            "media": {
+              "count": 1,
+              "items": [
+                {
+                  "photo_id": 187540087,
+                  "photo": {
+                    "photo_img_sm":
+                      "https://untappd.akamaized.net/photos/2018_08_13/00dbcf3c6c6cdf6397e216be53981b82_200x200.jpg",
+                    "photo_img_md":
+                      "https://untappd.akamaized.net/photos/2018_08_13/00dbcf3c6c6cdf6397e216be53981b82_640x640.jpg",
+                    "photo_img_lg":
+                      "https://untappd.akamaized.net/photos/2018_08_13/00dbcf3c6c6cdf6397e216be53981b82_1280x1280.jpg",
+                    "photo_img_og":
+                      "https://untappd.akamaized.net/photos/2018_08_13/00dbcf3c6c6cdf6397e216be53981b82_raw.jpg"
+                  }
+                }
+              ]
+            },
+            "source": {
+              "app_name": "Untappd for iPhone - (V2)",
+              "app_website": "http://untpd.it/iphoneapp"
+            },
+            "badges": { "retro_status": false, "count": 0, "items": [] }
+          },
+          {
+            "checkin_id": 638318307,
+            "created_at": "Sun, 12 Aug 2018 22:30:48 +0000",
+            "checkin_comment": "",
+            "rating_score": 3.75,
+            "user": {
+              "uid": 5653155,
+              "user_name": "cpeachey",
+              "first_name": "Colin",
+              "last_name": "P.",
+              "location": "",
+              "url": "",
+              "is_supporter": 0,
+              "bio": "",
+              "relationship": null,
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/70bccf8ec6b2b48bf54a8d6daa328112_100x100.jpg",
+              "is_private": 0
+            },
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "beer_style": "IPA - American",
+              "has_had": false,
+              "beer_active": 1
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "venue": {
+              "venue_id": 5642029,
+              "venue_name": "Belleville, PA",
+              "venue_slug": "belleville-pa",
+              "primary_category": "Travel & Transport",
+              "parent_category_id": "4d4b7105d754a06379d81259",
+              "categories": {
+                "count": 1,
+                "items": [
+                  {
+                    "category_name": "General Travel",
+                    "category_id": "4bf58dd8d48988d1f6931735",
+                    "is_primary": true
+                  }
+                ]
+              },
+              "location": {
+                "venue_address": "",
+                "venue_city": "Union Township",
+                "venue_state": "PA",
+                "venue_country": "United States",
+                "lat": 40.6374,
+                "lng": -77.721
+              },
+              "contact": { "twitter": "", "venue_url": "" },
+              "foursquare": {
+                "foursquare_id": "4e2983d2b61c41a2f8a820ff",
+                "foursquare_url": "http://4sq.com/nPQhAu"
+              },
+              "venue_icon": {
+                "sm":
+                  "https://ss3.4sqi.net/img/categories_v2/travel/default_bg_64.png",
+                "md":
+                  "https://ss3.4sqi.net/img/categories_v2/travel/default_bg_88.png",
+                "lg":
+                  "https://ss3.4sqi.net/img/categories_v2/travel/default_bg_88.png"
+              },
+              "is_verified": false
+            },
+            "comments": { "total_count": 0, "count": 0, "items": [] },
+            "toasts": {
+              "total_count": 0,
+              "count": 0,
+              "auth_toast": false,
+              "items": []
+            },
+            "media": { "count": 0, "items": [] },
+            "source": {
+              "app_name": "Untappd for Android - (V2)",
+              "app_website": "http://untpd.it/androidapp"
+            },
+            "badges": { "retro_status": false, "count": 0, "items": [] }
+          },
+          {
+            "checkin_id": 638172259,
+            "created_at": "Sun, 12 Aug 2018 18:50:45 +0000",
+            "checkin_comment": "",
+            "rating_score": 3.75,
+            "user": {
+              "uid": 5804980,
+              "user_name": "Cdav22",
+              "first_name": "Clayton",
+              "last_name": "D.",
+              "location": "",
+              "url": "",
+              "is_supporter": 0,
+              "bio": "",
+              "relationship": null,
+              "user_avatar":
+                "https://gravatar.com/avatar/567419f2d9b119d12c0196cee1317cca?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+              "is_private": 0
+            },
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "beer_style": "IPA - American",
+              "has_had": false,
+              "beer_active": 1
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "venue": [],
+            "comments": { "total_count": 0, "count": 0, "items": [] },
+            "toasts": {
+              "total_count": 0,
+              "count": 0,
+              "auth_toast": false,
+              "items": []
+            },
+            "media": { "count": 0, "items": [] },
+            "source": {
+              "app_name": "Untappd for iPhone - (V2)",
+              "app_website": "http://untpd.it/iphoneapp"
+            },
+            "badges": {
+              "retro_status": false,
+              "count": 1,
+              "items": [
+                {
+                  "badge_id": 6,
+                  "user_badge_id": 381930858,
+                  "badge_name": "Take It Easy",
+                  "badge_description":
+                    "Either you must be sampling or really like beer! That's 12 beers in 1 day.",
+                  "created_at": "Sun, 12 Aug 2018 18:50:45 +0000",
+                  "badge_image": {
+                    "sm":
+                      "https://untappd.akamaized.net/badges/bdg_takeItEasy_sm.jpg",
+                    "md":
+                      "https://untappd.akamaized.net/badges/bdg_takeItEasy_md.jpg",
+                    "lg":
+                      "https://untappd.akamaized.net/badges/bdg_takeItEasy_lg.jpg"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "checkin_id": 637936158,
+            "created_at": "Sun, 12 Aug 2018 02:49:59 +0000",
+            "checkin_comment": "",
+            "rating_score": 4.75,
+            "user": {
+              "uid": 3583093,
+              "user_name": "mfeeney2",
+              "first_name": "Michael",
+              "last_name": "F.",
+              "location": "",
+              "url": "",
+              "is_supporter": 0,
+              "bio": "",
+              "relationship": null,
+              "user_avatar":
+                "https://gravatar.com/avatar/e1a0b19abf4a6845276334bd5d763f3a?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+              "is_private": 0
+            },
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "beer_style": "IPA - American",
+              "has_had": false,
+              "beer_active": 1
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "venue": {
+              "venue_id": 6409030,
+              "venue_name": "Mama Duke's",
+              "venue_slug": "mama-dukes",
+              "primary_category": "Outdoors & Recreation",
+              "parent_category_id": "4d4b7105d754a06377d81259",
+              "categories": {
+                "count": 1,
+                "items": [
+                  {
+                    "category_name": "Canal",
+                    "category_id": "56aa371be4b08b9a8d573562",
+                    "is_primary": true
+                  }
+                ]
+              },
+              "location": {
+                "venue_address": "Long Leaf Drive",
+                "venue_city": "Melbourne",
+                "venue_state": "FL",
+                "venue_country": "United States",
+                "lat": 28.1916,
+                "lng": -80.6856
+              },
+              "contact": { "twitter": "", "venue_url": "" },
+              "foursquare": {
+                "foursquare_id": "592db7c4f427de368ce181d4",
+                "foursquare_url": "http://4sq.com/2qCT3q6"
+              },
+              "venue_icon": {
+                "sm":
+                  "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/river_bg_64.png",
+                "md":
+                  "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/river_bg_88.png",
+                "lg":
+                  "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/river_bg_88.png"
+              },
+              "is_verified": false
+            },
+            "comments": { "total_count": 0, "count": 0, "items": [] },
+            "toasts": {
+              "total_count": 0,
+              "count": 0,
+              "auth_toast": false,
+              "items": []
+            },
+            "media": { "count": 0, "items": [] },
+            "source": {
+              "app_name": "Untappd for Android - (V2)",
+              "app_website": "http://untpd.it/androidapp"
+            },
+            "badges": {
+              "retro_status": false,
+              "count": 1,
+              "items": [
+                {
+                  "badge_id": 133204,
+                  "user_badge_id": 381701849,
+                  "badge_name": "99 Bottles (Level 51)",
+                  "badge_description":
+                    "99 bottles of beer on the wall, 99 bottles of beer. Take one down, pass it around.... That's 255 checkins with the serving style of Bottle. Try 5 more for Level 52!",
+                  "created_at": "Sun, 12 Aug 2018 02:50:00 +0000",
+                  "badge_image": {
+                    "sm":
+                      "https://untappd.akamaized.net/badges/bdg_99Bottles_sm.jpg",
+                    "md":
+                      "https://untappd.akamaized.net/badges/bdg_99Bottles_md.jpg",
+                    "lg":
+                      "https://untappd.akamaized.net/badges/bdg_99Bottles_lg.jpg"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "checkin_id": 637924716,
+            "created_at": "Sun, 12 Aug 2018 02:29:18 +0000",
+            "checkin_comment": "",
+            "rating_score": 4,
+            "user": {
+              "uid": 3043724,
+              "user_name": "zshaft",
+              "first_name": "paul",
+              "last_name": "o.",
+              "location": "",
+              "url": "",
+              "is_supporter": 0,
+              "bio": "",
+              "relationship": null,
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/06a04110f083e63a6c3f391d97cc058f_100x100.jpeg",
+              "is_private": 0
+            },
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "beer_style": "IPA - American",
+              "has_had": false,
+              "beer_active": 1
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "venue": [],
+            "comments": { "total_count": 0, "count": 0, "items": [] },
+            "toasts": {
+              "total_count": 0,
+              "count": 0,
+              "auth_toast": false,
+              "items": []
+            },
+            "media": { "count": 0, "items": [] },
+            "source": {
+              "app_name": "Untappd for iPhone - (V2)",
+              "app_website": "http://untpd.it/iphoneapp"
+            },
+            "badges": { "retro_status": false, "count": 0, "items": [] }
+          },
+          {
+            "checkin_id": 637914775,
+            "created_at": "Sun, 12 Aug 2018 02:13:05 +0000",
+            "checkin_comment": "",
+            "rating_score": 3.75,
+            "user": {
+              "uid": 4138022,
+              "user_name": "Megz_Jelley",
+              "first_name": "Megan",
+              "last_name": "",
+              "location": "",
+              "url": "",
+              "is_supporter": 0,
+              "bio": "",
+              "relationship": null,
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/4ea3a5f61a6d413054929fbae3de52e4_100x100.jpg",
+              "is_private": 0
+            },
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "beer_style": "IPA - American",
+              "has_had": false,
+              "beer_active": 1
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "venue": {
+              "venue_id": 305179,
+              "venue_name": "Ocean Park, WA",
+              "venue_slug": "ocean-park-wa",
+              "primary_category": "Outdoors & Recreation",
+              "parent_category_id": "4d4b7105d754a06377d81259",
+              "categories": {
+                "count": 1,
+                "items": [
+                  {
+                    "category_name": "City",
+                    "category_id": "50aa9e094b90af0d42d5de0d",
+                    "is_primary": true
+                  }
+                ]
+              },
+              "location": {
+                "venue_address": "",
+                "venue_city": "",
+                "venue_state": "WA",
+                "venue_country": "United States",
+                "lat": 46.4895,
+                "lng": -124.051
+              },
+              "contact": { "twitter": "", "venue_url": "" },
+              "foursquare": {
+                "foursquare_id": "4c6f54bf9375a09362df0337",
+                "foursquare_url": "http://4sq.com/czNS8A"
+              },
+              "venue_icon": {
+                "sm":
+                  "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_64.png",
+                "md":
+                  "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_88.png",
+                "lg":
+                  "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/neighborhood_bg_88.png"
+              },
+              "is_verified": false
+            },
+            "comments": { "total_count": 0, "count": 0, "items": [] },
+            "toasts": {
+              "total_count": 2,
+              "count": 2,
+              "auth_toast": null,
+              "items": [
+                {
+                  "uid": 1392124,
+                  "user": {
+                    "uid": 1392124,
+                    "user_name": "Beaverlicious",
+                    "first_name": "Santana",
+                    "last_name": "G.",
+                    "bio": "",
+                    "location": "",
+                    "relationship": "none",
+                    "user_avatar":
+                      "https://untappd.akamaized.net/profile/6b4e1009a0895c9bc5e61b14a378092f_100x100.jpg",
+                    "account_type": "user",
+                    "venue_details": [],
+                    "brewery_details": []
+                  },
+                  "like_id": 549818331,
+                  "like_owner": false,
+                  "created_at": "Sun, 12 Aug 2018 02:31:41 +0000"
+                },
+                {
+                  "uid": 3168560,
+                  "user": {
+                    "uid": 3168560,
+                    "user_name": "stephbarnes",
+                    "first_name": "Steph",
+                    "last_name": "B.",
+                    "bio": "",
+                    "location": "",
+                    "relationship": "none",
+                    "user_avatar":
+                      "https://untappd.akamaized.net/profile/ed3580d8be1240c6005869bdc2c209b3_100x100.jpg",
+                    "account_type": "user",
+                    "venue_details": [],
+                    "brewery_details": []
+                  },
+                  "like_id": 549809819,
+                  "like_owner": false,
+                  "created_at": "Sun, 12 Aug 2018 02:15:43 +0000"
+                }
+              ]
+            },
+            "media": {
+              "count": 1,
+              "items": [
+                {
+                  "photo_id": 187344510,
+                  "photo": {
+                    "photo_img_sm":
+                      "https://untappd.akamaized.net/photos/2018_08_12/a3c0f4c1b178bfc161afe2d1123dc837_200x200.jpg",
+                    "photo_img_md":
+                      "https://untappd.akamaized.net/photos/2018_08_12/a3c0f4c1b178bfc161afe2d1123dc837_640x640.jpg",
+                    "photo_img_lg":
+                      "https://untappd.akamaized.net/photos/2018_08_12/a3c0f4c1b178bfc161afe2d1123dc837_1280x1280.jpg",
+                    "photo_img_og":
+                      "https://untappd.akamaized.net/photos/2018_08_12/a3c0f4c1b178bfc161afe2d1123dc837_raw.jpg"
+                  }
+                }
+              ]
+            },
+            "source": {
+              "app_name": "Untappd for iPhone - (V2)",
+              "app_website": "http://untpd.it/iphoneapp"
+            },
+            "badges": { "retro_status": false, "count": 0, "items": [] }
+          },
+          {
+            "checkin_id": 637823508,
+            "created_at": "Sun, 12 Aug 2018 00:17:06 +0000",
+            "checkin_comment": "",
+            "rating_score": 3.5,
+            "user": {
+              "uid": 5763384,
+              "user_name": "azwolfgang",
+              "first_name": "Wolfgang",
+              "last_name": "R.",
+              "location": "",
+              "url": "",
+              "is_supporter": 0,
+              "bio": "",
+              "relationship": null,
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/b40226bf6bd685b9f54bdc7c543ba852_100x100.jpg",
+              "is_private": 0
+            },
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "beer_style": "IPA - American",
+              "has_had": false,
+              "beer_active": 1
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "venue": {
+              "venue_id": 3545206,
+              "venue_name": "The Black Duck Cask and Bottle",
+              "venue_slug": "the-black-duck-cask-and-bottle",
+              "primary_category": "Nightlife Spot",
+              "parent_category_id": "4d4b7105d754a06376d81259",
+              "categories": {
+                "count": 1,
+                "items": [
+                  {
+                    "category_name": "Pub",
+                    "category_id": "4bf58dd8d48988d11b941735",
+                    "is_primary": true
+                  }
+                ]
+              },
+              "location": {
+                "venue_address": "317 NW Gilman Blvd, Suite 31-B",
+                "venue_city": "Issaquah",
+                "venue_state": "WA",
+                "venue_country": "United States",
+                "lat": 47.5404,
+                "lng": -122.042
+              },
+              "contact": {
+                "twitter": "",
+                "venue_url": "http://theblackduckcaskandbottle.com/"
+              },
+              "foursquare": {
+                "foursquare_id": "55e3918f498ed665313129a1",
+                "foursquare_url": "http://4sq.com/1LEiCgj"
+              },
+              "venue_icon": {
+                "sm":
+                  "https://untappd.akamaized.net/venuelogos/venue_3545206_fbefe83a_bg_64.png",
+                "md":
+                  "https://untappd.akamaized.net/venuelogos/venue_3545206_fbefe83a_bg_88.png",
+                "lg":
+                  "https://untappd.akamaized.net/venuelogos/venue_3545206_fbefe83a_bg_88.png"
+              },
+              "is_verified": true
+            },
+            "comments": { "total_count": 0, "count": 0, "items": [] },
+            "toasts": {
+              "total_count": 0,
+              "count": 0,
+              "auth_toast": false,
+              "items": []
+            },
+            "media": { "count": 0, "items": [] },
+            "source": {
+              "app_name": "Untappd for iPhone - (V2)",
+              "app_website": "http://untpd.it/iphoneapp"
+            },
+            "badges": {
+              "retro_status": false,
+              "count": 2,
+              "items": [
+                {
+                  "badge_id": 60,
+                  "user_badge_id": 381597649,
+                  "badge_name": "I Believe in IPA!",
+                  "badge_description":
+                    "We believe in IPA and you should too. You certainly have a taste for the hops! That's 5 different IPAs. Try 5 more for Level 2",
+                  "created_at": "Sun, 12 Aug 2018 00:17:06 +0000",
+                  "badge_image": {
+                    "sm":
+                      "https://untappd.akamaized.net/badges/bdg_hoptopia_sm.jpg",
+                    "md":
+                      "https://untappd.akamaized.net/badges/bdg_hoptopia_md.jpg",
+                    "lg":
+                      "https://untappd.akamaized.net/badges/bdg_hoptopia_lg.jpg"
+                  }
+                },
+                {
+                  "badge_id": 538,
+                  "user_badge_id": 381597650,
+                  "badge_name": "Land of the Free (Level 2)",
+                  "badge_description":
+                    "You’ve pledged allegiance, and now it’s time to enjoy some beer! Now remember, not all American beer is fizzy and yellow. That’s 10 different beers from a brewery in the United States. Try 5 more for Level 3.",
+                  "created_at": "Sun, 12 Aug 2018 00:17:06 +0000",
+                  "badge_image": {
+                    "sm":
+                      "https://untappd.akamaized.net/badges/bdg_america_sm.jpg",
+                    "md":
+                      "https://untappd.akamaized.net/badges/bdg_america_md.jpg",
+                    "lg":
+                      "https://untappd.akamaized.net/badges/bdg_america_lg.jpg"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "checkin_id": 637756234,
+            "created_at": "Sat, 11 Aug 2018 23:05:43 +0000",
+            "checkin_comment": "",
+            "rating_score": 3.75,
+            "user": {
+              "uid": 4264750,
+              "user_name": "ehuckins",
+              "first_name": "Eric",
+              "last_name": "H.",
+              "location": "",
+              "url": "",
+              "is_supporter": 0,
+              "bio": "",
+              "relationship": null,
+              "user_avatar":
+                "https://gravatar.com/avatar/d5e2b981a9509055c99870cf47518640?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+              "is_private": 0
+            },
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "beer_style": "IPA - American",
+              "has_had": false,
+              "beer_active": 1
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "venue": {
+              "venue_id": 728392,
+              "venue_name": "Wenzel's Perfect World",
+              "venue_slug": "wenzels-perfect-world",
+              "primary_category": "Nightlife Spot",
+              "parent_category_id": "4d4b7105d754a06376d81259",
+              "categories": {
+                "count": 2,
+                "items": [
+                  {
+                    "category_name": "Pub",
+                    "category_id": "4bf58dd8d48988d11b941735",
+                    "is_primary": true
+                  },
+                  {
+                    "category_name": "Bar",
+                    "category_id": "4bf58dd8d48988d116941735",
+                    "is_primary": false
+                  }
+                ]
+              },
+              "location": {
+                "venue_address": "3920 Calumet Ave",
+                "venue_city": "Manitowoc",
+                "venue_state": "WI",
+                "venue_country": "United States",
+                "lat": 44.0802,
+                "lng": -87.6966
+              },
+              "contact": { "twitter": "", "venue_url": "" },
+              "foursquare": {
+                "foursquare_id": "4d9f536e7ec88cfa5807815a",
+                "foursquare_url": "http://4sq.com/hFESAr"
+              },
+              "venue_icon": {
+                "sm":
+                  "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_64.png",
+                "md":
+                  "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png",
+                "lg":
+                  "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"
+              },
+              "is_verified": false
+            },
+            "comments": { "total_count": 0, "count": 0, "items": [] },
+            "toasts": {
+              "total_count": 0,
+              "count": 0,
+              "auth_toast": false,
+              "items": []
+            },
+            "media": { "count": 0, "items": [] },
+            "source": {
+              "app_name": "Untappd for Android - (V2)",
+              "app_website": "http://untpd.it/androidapp"
+            },
+            "badges": {
+              "retro_status": false,
+              "count": 2,
+              "items": [
+                {
+                  "badge_id": 3374,
+                  "user_badge_id": 381534403,
+                  "badge_name": "Hopped Up (Level 17)",
+                  "badge_description":
+                    "Load up those hops, watch the IBU grow and drink it down! Now you’re all hopped up. The more bitter, the better. That's 85 different beers with an IBU of 65 or higher. Try 5 more for Level 18!",
+                  "created_at": "Sat, 11 Aug 2018 23:05:44 +0000",
+                  "badge_image": {
+                    "sm":
+                      "https://untappd.akamaized.net/badges/bdg_HoppedUp_sm.jpg",
+                    "md":
+                      "https://untappd.akamaized.net/badges/bdg_HoppedUp_md.jpg",
+                    "lg":
+                      "https://untappd.akamaized.net/badges/bdg_HoppedUp_lg.jpg"
+                  }
+                },
+                {
+                  "badge_id": 94118,
+                  "user_badge_id": 381534405,
+                  "badge_name": "Land of the Free (Level 83)",
+                  "badge_description":
+                    "You’ve pledged allegiance, and now it’s time to enjoy some beer! Now remember, not all American beer is fizzy and yellow. That’s 415 different beers from a brewery in the United States. Try 5 more for Level 84!",
+                  "created_at": "Sat, 11 Aug 2018 23:05:44 +0000",
+                  "badge_image": {
+                    "sm":
+                      "https://untappd.akamaized.net/badges/bdg_america_sm.jpg",
+                    "md":
+                      "https://untappd.akamaized.net/badges/bdg_america_md.jpg",
+                    "lg":
+                      "https://untappd.akamaized.net/badges/bdg_america_lg.jpg"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "checkin_id": 637531614,
+            "created_at": "Sat, 11 Aug 2018 19:41:22 +0000",
+            "checkin_comment": "",
+            "rating_score": 3.75,
+            "user": {
+              "uid": 2130652,
+              "user_name": "Yesnorich",
+              "first_name": "Jan Eirik",
+              "last_name": "K.",
+              "location": "",
+              "url": "",
+              "is_supporter": 0,
+              "bio": "",
+              "relationship": null,
+              "user_avatar":
+                "https://gravatar.com/avatar/3460d4cdc51d6e461eb3e81e590fb8ba?size=100&d=https%3A%2F%2Funtappd.akamaized.net%2Fsite%2Fassets%2Fimages%2Fdefault_avatar_v2_gravatar.jpg%3Fv%3D2",
+              "is_private": 0
+            },
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "beer_style": "IPA - American",
+              "has_had": false,
+              "beer_active": 1
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "venue": {
+              "venue_id": 164503,
+              "venue_name": "Melkebaren",
+              "venue_slug": "melkebaren",
+              "primary_category": "Nightlife Spot",
+              "parent_category_id": "4d4b7105d754a06376d81259",
+              "categories": {
+                "count": 3,
+                "items": [
+                  {
+                    "category_name": "Pub",
+                    "category_id": "4bf58dd8d48988d11b941735",
+                    "is_primary": true
+                  },
+                  {
+                    "category_name": "Beer Garden",
+                    "category_id": "4bf58dd8d48988d117941735",
+                    "is_primary": false
+                  },
+                  {
+                    "category_name": "Bar",
+                    "category_id": "4bf58dd8d48988d116941735",
+                    "is_primary": false
+                  }
+                ]
+              },
+              "location": {
+                "venue_address": "1 Industrigata",
+                "venue_city": "Sandnes",
+                "venue_state": "Rogaland",
+                "venue_country": "Norge",
+                "lat": 58.8532,
+                "lng": 5.73586
+              },
+              "contact": { "twitter": "", "venue_url": "" },
+              "foursquare": {
+                "foursquare_id": "4cb99f670180721e92169561",
+                "foursquare_url": "http://4sq.com/95I0YK"
+              },
+              "venue_icon": {
+                "sm":
+                  "https://untappd.akamaized.net/venuelogos/venue_164503_a44890e5_bg_64.png",
+                "md":
+                  "https://untappd.akamaized.net/venuelogos/venue_164503_a44890e5_bg_88.png",
+                "lg":
+                  "https://untappd.akamaized.net/venuelogos/venue_164503_a44890e5_bg_88.png"
+              },
+              "is_verified": true
+            },
+            "comments": { "total_count": 0, "count": 0, "items": [] },
+            "toasts": {
+              "total_count": 1,
+              "count": 1,
+              "auth_toast": null,
+              "items": [
+                {
+                  "uid": 5005122,
+                  "user": {
+                    "uid": 5005122,
+                    "user_name": "LMortenB",
+                    "first_name": "Morten",
+                    "last_name": "B.",
+                    "bio": "",
+                    "location": "",
+                    "relationship": "none",
+                    "user_avatar":
+                      "https://untappd.akamaized.net/profile/1fd5356e77190f747f0fc5db92cf1e4b_100x100.jpg",
+                    "account_type": "user",
+                    "venue_details": [],
+                    "brewery_details": []
+                  },
+                  "like_id": 549589580,
+                  "like_owner": false,
+                  "created_at": "Sat, 11 Aug 2018 20:48:31 +0000"
+                }
+              ]
+            },
+            "media": { "count": 0, "items": [] },
+            "source": {
+              "app_name": "Untappd for Android - (V2)",
+              "app_website": "http://untpd.it/androidapp"
+            },
+            "badges": {
+              "retro_status": false,
+              "count": 1,
+              "items": [
+                {
+                  "badge_id": 5596,
+                  "user_badge_id": 381315202,
+                  "badge_name": "Verified Adventure (Level 16)",
+                  "badge_description":
+                    "While spontaneity can be fun, sometimes you want to make sure your adventure will rock. Checkout the menu at an Untappd Verified Venue before visiting and know exactly what’s on tap! That's 80 check-ins at venue that is verified. Try 5 more for Level 17!",
+                  "created_at": "Sat, 11 Aug 2018 19:41:23 +0000",
+                  "badge_image": {
+                    "sm":
+                      "https://untappd.akamaized.net/badges/bdg_VerifiedVenue_sm.jpg",
+                    "md":
+                      "https://untappd.akamaized.net/badges/bdg_VerifiedVenue_md.jpg",
+                    "lg":
+                      "https://untappd.akamaized.net/badges/bdg_VerifiedVenue_lg.jpg"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "checkin_id": 637368035,
+            "created_at": "Sat, 11 Aug 2018 16:54:55 +0000",
+            "checkin_comment":
+              "I'm a dad now, Everton scored, and I'm on like barely any sleep.  Time to hit this case+ of bottles.  Celebrate",
+            "rating_score": 5,
+            "user": {
+              "uid": 24153,
+              "user_name": "chaulmoogra",
+              "first_name": "Kris",
+              "last_name": "J.",
+              "location": "Roswell, GA",
+              "url": "http://www.brewyabrewing.com",
+              "is_supporter": 0,
+              "bio":
+                "Celebrating every day, no more public housing.\n\nNATTY 2017",
+              "relationship": null,
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/7f7244e6b0bbaa057e398c2860c273c8_100x100.jpeg",
+              "is_private": 0
+            },
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "beer_style": "IPA - American",
+              "has_had": false,
+              "beer_active": 1
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "venue": {
+              "venue_id": 802423,
+              "venue_name": "Brewya Brewing - Roswell",
+              "venue_slug": "brewya-brewing-roswell",
+              "primary_category": "Nightlife Spot",
+              "parent_category_id": "4d4b7105d754a06376d81259",
+              "categories": {
+                "count": 1,
+                "items": [
+                  {
+                    "category_name": "Brewery",
+                    "category_id": "50327c8591d4c4b30a586d5d",
+                    "is_primary": true
+                  }
+                ]
+              },
+              "location": {
+                "venue_address": "4910 Surrey Dr",
+                "venue_city": "Roswell",
+                "venue_state": "GA",
+                "venue_country": "United States",
+                "lat": 34.0672,
+                "lng": -84.4197
+              },
+              "contact": { "twitter": "", "venue_url": "" },
+              "foursquare": {
+                "foursquare_id": "51b7d1d28bbd9dcba73d0ccf",
+                "foursquare_url": "http://4sq.com/11FPkb6"
+              },
+              "venue_icon": {
+                "sm":
+                  "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_64.png",
+                "md":
+                  "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png",
+                "lg":
+                  "https://ss3.4sqi.net/img/categories_v2/food/brewery_bg_88.png"
+              },
+              "is_verified": false
+            },
+            "comments": { "total_count": 0, "count": 0, "items": [] },
+            "toasts": {
+              "total_count": 2,
+              "count": 2,
+              "auth_toast": null,
+              "items": [
+                {
+                  "uid": 1612384,
+                  "user": {
+                    "uid": 1612384,
+                    "user_name": "TheJudge1776",
+                    "first_name": "Josh",
+                    "last_name": "K.",
+                    "bio": "",
+                    "location": "",
+                    "relationship": "none",
+                    "user_avatar":
+                      "https://untappd.akamaized.net/profile/736213f3ea71f9343aeb0171be169662_100x100.jpg",
+                    "account_type": "user",
+                    "venue_details": [],
+                    "brewery_details": []
+                  },
+                  "like_id": 549661617,
+                  "like_owner": false,
+                  "created_at": "Sat, 11 Aug 2018 22:26:05 +0000"
+                },
+                {
+                  "uid": 1058796,
+                  "user": {
+                    "uid": 1058796,
+                    "user_name": "bBaumy",
+                    "first_name": "Brian",
+                    "last_name": "B.",
+                    "bio": "",
+                    "location": "",
+                    "relationship": "none",
+                    "user_avatar":
+                      "https://untappd.akamaized.net/profile/c829140421c9378425b240982886663a_thumb.jpg",
+                    "account_type": "user",
+                    "venue_details": [],
+                    "brewery_details": []
+                  },
+                  "like_id": 549488576,
+                  "like_owner": false,
+                  "created_at": "Sat, 11 Aug 2018 18:43:46 +0000"
+                }
+              ]
+            },
+            "media": { "count": 0, "items": [] },
+            "source": {
+              "app_name": "Untappd for Android - (V2)",
+              "app_website": "http://untpd.it/androidapp"
+            },
+            "badges": {
+              "retro_status": false,
+              "count": 1,
+              "items": [
+                {
+                  "badge_id": 133177,
+                  "user_badge_id": 381151602,
+                  "badge_name": "99 Bottles (Level 24)",
+                  "badge_description":
+                    "99 bottles of beer on the wall, 99 bottles of beer. Take one down, pass it around.... That's 120 checkins with the serving style of Bottle. Try 5 more for Level 25!",
+                  "created_at": "Sat, 11 Aug 2018 16:54:57 +0000",
+                  "badge_image": {
+                    "sm":
+                      "https://untappd.akamaized.net/badges/bdg_99Bottles_sm.jpg",
+                    "md":
+                      "https://untappd.akamaized.net/badges/bdg_99Bottles_md.jpg",
+                    "lg":
+                      "https://untappd.akamaized.net/badges/bdg_99Bottles_lg.jpg"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "checkin_id": 637318959,
+            "created_at": "Sat, 11 Aug 2018 15:35:59 +0000",
+            "checkin_comment": "",
+            "rating_score": 3.75,
+            "user": {
+              "uid": 4686657,
+              "user_name": "montz182",
+              "first_name": "Grant",
+              "last_name": "M.",
+              "location": "",
+              "url": "",
+              "is_supporter": 0,
+              "bio": "",
+              "relationship": null,
+              "user_avatar":
+                "https://untappd.akamaized.net/profile/d1e3462190d94db78fa0140ca26770da_100x100.jpg",
+              "is_private": 0
+            },
+            "beer": {
+              "bid": 16630,
+              "beer_name": "Celebration Ale",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_abv": 6.8,
+              "beer_ibu": 65,
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale",
+              "beer_description":
+                "The long, cold nights of winter are a little brighter with Celebration Ale. Wonderfully robust and rich, Celebration Ale is dry-hopped for a lively, intense aroma. Brewed especially for the holidays, it is perfect for a festive gathering or for a quiet evening at home.",
+              "beer_style": "IPA - American",
+              "has_had": false,
+              "beer_active": 1
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "venue": {
+              "venue_id": 2264921,
+              "venue_name": "dive",
+              "venue_slug": "dive",
+              "primary_category": "Nightlife Spot",
+              "parent_category_id": "4d4b7105d754a06376d81259",
+              "categories": {
+                "count": 1,
+                "items": [
+                  {
+                    "category_name": "Bar",
+                    "category_id": "4bf58dd8d48988d116941735",
+                    "is_primary": true
+                  }
+                ]
+              },
+              "location": {
+                "venue_address": "",
+                "venue_city": "",
+                "venue_state": "",
+                "venue_country": "臺灣",
+                "lat": 22.9941,
+                "lng": 120.196
+              },
+              "contact": { "twitter": "", "venue_url": "" },
+              "foursquare": {
+                "foursquare_id": "5363a82111d225cf26b579cd",
+                "foursquare_url": "http://4sq.com/1rWKpyg"
+              },
+              "venue_icon": {
+                "sm":
+                  "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_64.png",
+                "md":
+                  "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png",
+                "lg":
+                  "https://ss3.4sqi.net/img/categories_v2/nightlife/pub_bg_88.png"
+              },
+              "is_verified": false
+            },
+            "comments": { "total_count": 0, "count": 0, "items": [] },
+            "toasts": {
+              "total_count": 0,
+              "count": 0,
+              "auth_toast": false,
+              "items": []
+            },
+            "media": {
+              "count": 1,
+              "items": [
+                {
+                  "photo_id": 187136977,
+                  "photo": {
+                    "photo_img_sm":
+                      "https://untappd.akamaized.net/photos/2018_08_11/e4bd365a6a0851de96558a2c9de62769_200x200.jpg",
+                    "photo_img_md":
+                      "https://untappd.akamaized.net/photos/2018_08_11/e4bd365a6a0851de96558a2c9de62769_640x640.jpg",
+                    "photo_img_lg":
+                      "https://untappd.akamaized.net/photos/2018_08_11/e4bd365a6a0851de96558a2c9de62769_1280x1280.jpg",
+                    "photo_img_og":
+                      "https://untappd.akamaized.net/photos/2018_08_11/e4bd365a6a0851de96558a2c9de62769_raw.jpg"
+                  }
+                }
+              ]
+            },
+            "source": {
+              "app_name": "Untappd for iPhone - (V2)",
+              "app_website": "http://untpd.it/iphoneapp"
+            },
+            "badges": {
+              "retro_status": false,
+              "count": 1,
+              "items": [
+                {
+                  "badge_id": 1810,
+                  "user_badge_id": 381101537,
+                  "badge_name": "Photogenic Brew  (Level 24)",
+                  "badge_description":
+                    "It takes the perfect amount of light, the right framing and a touch of creative love to get the perfect picture of your brew. Now it’s time to drink it! That’s 120 check-ins with a photo. ",
+                  "created_at": "Sat, 11 Aug 2018 15:35:59 +0000",
+                  "badge_image": {
+                    "sm":
+                      "https://untappd.akamaized.net/badges/bdg_beertography_sm.jpg",
+                    "md":
+                      "https://untappd.akamaized.net/badges/bdg_beertography_md.jpg",
+                    "lg":
+                      "https://untappd.akamaized.net/badges/bdg_beertography_lg.jpg"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "pagination": {
+          "since_url":
+            "https://api.untappd.com/v4/beer/checkins/16630?max_id=638683071",
+          "next_url":
+            "https://api.untappd.com/v4/beer/checkins/16630?max_id=637318959",
+          "max_id": 637318959
+        }
+      },
+      "similar": {
+        "count": 5,
+        "items": [
+          {
+            "rating_score": 3.62894,
+            "beer": {
+              "bid": 1741133,
+              "beer_name": "Tropical Torpedo",
+              "beer_abv": 6.7,
+              "beer_ibu": 55,
+              "beer_slug": "sierra-nevada-brewing-co-tropical-torpedo",
+              "beer_style": "IPA - American",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-1741133_0a236_sm.jpeg",
+              "has_had": false
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_type": "Regional Brewery",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "instagram": "sierranevada",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "friends": { "items": [], "count": 0 }
+          },
+          {
+            "rating_score": 3.79595,
+            "beer": {
+              "bid": 2412786,
+              "beer_name": "Hazy Little Thing",
+              "beer_abv": 6.7,
+              "beer_ibu": 40,
+              "beer_slug": "sierra-nevada-brewing-co-hazy-little-thing",
+              "beer_style": "IPA - New England",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-2412786_22555_sm.jpeg",
+              "has_had": false
+            },
+            "brewery": {
+              "brewery_id": 1142,
+              "brewery_name": "Sierra Nevada Brewing Co.",
+              "brewery_slug": "sierra-nevada-brewing-co",
+              "brewery_page_url": "/SierraNevada",
+              "brewery_type": "Regional Brewery",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1142_ddcfe.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "SierraNevada",
+                "facebook": "http://www.facebook.com/sierranevadabeer",
+                "instagram": "sierranevada",
+                "url": "http://www.sierranevada.com/"
+              },
+              "location": {
+                "brewery_city": "Chico",
+                "brewery_state": "CA",
+                "lat": 39.7242,
+                "lng": -121.815
+              },
+              "brewery_active": 1
+            },
+            "friends": { "items": [], "count": 0 }
+          },
+          {
+            "rating_score": 3.75239,
+            "beer": {
+              "bid": 1512388,
+              "beer_name": "Stone Tangerine Express IPA",
+              "beer_abv": 6.7,
+              "beer_ibu": 75,
+              "beer_slug": "stone-brewing-stone-tangerine-express-ipa",
+              "beer_style": "IPA - American",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-1512388_beecb_sm.jpeg",
+              "has_had": false
+            },
+            "brewery": {
+              "brewery_id": 1204,
+              "brewery_name": "Stone Brewing",
+              "brewery_slug": "stone-brewing",
+              "brewery_page_url": "/StoneBrewing",
+              "brewery_type": "Regional Brewery",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-1204_23541.jpeg",
+              "country_name": "United States",
+              "contact": {
+                "twitter": "StoneBrewing",
+                "facebook": "http://www.facebook.com/StoneBrewing",
+                "instagram": "StoneBrewing",
+                "url": "http://www.stonebrewing.com/"
+              },
+              "location": {
+                "brewery_city": "Escondido",
+                "brewery_state": "CA",
+                "lat": 33.1157,
+                "lng": -117.12
+              },
+              "brewery_active": 1
+            },
+            "friends": { "items": [], "count": 0 }
+          },
+          {
+            "rating_score": 4.08519,
+            "beer": {
+              "bid": 1835372,
+              "beer_name": "Blast Beat",
+              "beer_abv": 8,
+              "beer_ibu": 70,
+              "beer_slug": "zagovor-brewery-blast-beat",
+              "beer_style": "IPA - Imperial / Double New England",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-1835372_02f84_sm.jpeg",
+              "has_had": false
+            },
+            "brewery": {
+              "brewery_id": 135208,
+              "brewery_name": "Zagovor Brewery",
+              "brewery_slug": "zagovor-brewery",
+              "brewery_page_url": "/ZagovorBrewery",
+              "brewery_type": "Micro Brewery",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-135208_51cc2.jpeg",
+              "country_name": "Russia",
+              "contact": {
+                "twitter": "",
+                "facebook": "http://www.facebook.com/zagovorbrewery",
+                "instagram": "zagovorbrewery",
+                "url": "http://zagovorbrewery.com"
+              },
+              "location": {
+                "brewery_city": "",
+                "brewery_state": "",
+                "lat": 0,
+                "lng": 0
+              },
+              "brewery_active": 1
+            },
+            "friends": { "items": [], "count": 0 }
+          },
+          {
+            "rating_score": 4.06297,
+            "beer": {
+              "bid": 2084054,
+              "beer_name": "HazyLeaks",
+              "beer_abv": 6.7,
+              "beer_ibu": 55,
+              "beer_slug": "zagovor-brewery-hazyleaks",
+              "beer_style": "IPA - New England",
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-2084054_97839_sm.jpeg",
+              "has_had": false
+            },
+            "brewery": {
+              "brewery_id": 135208,
+              "brewery_name": "Zagovor Brewery",
+              "brewery_slug": "zagovor-brewery",
+              "brewery_page_url": "/ZagovorBrewery",
+              "brewery_type": "Micro Brewery",
+              "brewery_label":
+                "https://untappd.akamaized.net/site/brewery_logos/brewery-135208_51cc2.jpeg",
+              "country_name": "Russia",
+              "contact": {
+                "twitter": "",
+                "facebook": "http://www.facebook.com/zagovorbrewery",
+                "instagram": "zagovorbrewery",
+                "url": "http://zagovorbrewery.com"
+              },
+              "location": {
+                "brewery_city": "",
+                "brewery_state": "",
+                "lat": 0,
+                "lng": 0
+              },
+              "brewery_active": 1
+            },
+            "friends": { "items": [], "count": 0 }
+          }
+        ]
+      },
+      "friends": { "items": [], "count": 0 },
+      "weighted_rating_score": 3.74523,
+      "vintages": {
+        "count": 5,
+        "items": [
+          {
+            "beer": {
+              "bid": 2325200,
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-16630_3170b_sm.jpeg",
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale-2017",
+              "beer_name": "Celebration Ale (2017)",
+              "is_vintage": 1,
+              "is_variant": 0
+            }
+          },
+          {
+            "beer": {
+              "bid": 1781893,
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-1781893_ade13_sm.jpeg",
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale-2016",
+              "beer_name": "Celebration Ale (2016)",
+              "is_vintage": 1,
+              "is_variant": 0
+            }
+          },
+          {
+            "beer": {
+              "bid": 1336765,
+              "beer_label":
+                "https://untappd.akamaized.net/site/assets/images/temp/badge-beer-default.png",
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale-1987",
+              "beer_name": "Celebration Ale (1987)",
+              "is_vintage": 1,
+              "is_variant": 0
+            }
+          },
+          {
+            "beer": {
+              "bid": 1276111,
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-1276111_444ae_sm.jpeg",
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale-2015",
+              "beer_name": "Celebration Ale (2015)",
+              "is_vintage": 1,
+              "is_variant": 0
+            }
+          },
+          {
+            "beer": {
+              "bid": 911562,
+              "beer_label":
+                "https://untappd.akamaized.net/site/beer_logos/beer-820687_a2903_sm.jpeg",
+              "beer_slug": "sierra-nevada-brewing-co-celebration-ale-1989",
+              "beer_name": "Celebration Ale (1989)",
+              "is_vintage": 1,
+              "is_variant": 0
+            }
+          }
+        ]
+      }
+    }
+  }
+}
