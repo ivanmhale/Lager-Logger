@@ -19,7 +19,7 @@ passport.use(
 );
 // const bodyParser = require("body-parser");
 
-// require("./models/User");
+ require("./models/User");
 // require("./models/Saved");
 // require("./services/passport");
 //
