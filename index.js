@@ -1,6 +1,6 @@
 const express = require("express");
 // const mongoose = require("mongoose");
- const keys = require("./config/keys");
+const keys = require("./config/keys");
 // const cookieSession = require("cookie-session");
 const passport = require("passport");
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
@@ -19,7 +19,7 @@ passport.use(
 );
 // const bodyParser = require("body-parser");
 
- require("./models/User");
+require("./models/User");
 // require("./models/Saved");
 // require("./services/passport");
 //
@@ -36,10 +36,8 @@ const app = express();
 // );
 // app.use(passport.initialize());
 // app.use(passport.session());
-//
-// const path = require("path");
-//
 
+require("./routes/auth")(app);
 // require("./routes/beers")(app);
 
 app.get(
@@ -56,7 +54,7 @@ app.get(
 );
 
 if (process.env.NODE_ENV === "production") {
-  require("./routes/auth")(app);
+  const path = require("path");
 
   app.use(express.static(path.join(__dirname, "client/build")));
 
