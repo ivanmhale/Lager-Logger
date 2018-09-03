@@ -1,5 +1,7 @@
 import React from "react";
 import Context from "../context/Context";
+import Logo from "../assets/logo.png";
+import untapptd from "../assets/untapptd.png";
 
 class Header extends React.Component {
   render() {
@@ -8,11 +10,13 @@ class Header extends React.Component {
         {context => {
           return (
             <div className="header">
-              {this.props.user.name}
-              <div className="logo_container" />
+              <div className="logo_container">
+                <div className="img_container"><img src={Logo} alt="logo"/></div>
+                <div className="img_container"><img src={untapptd} alt="Untapptd"/></div>
+              </div>
               <div className="nav_container">
-                <a href="/auth/google">Sign in with Google</a>
-                <a href="/auth/facebook">Sign in with Facebook</a>
+                <a href="/profile">{window.location.pathname === "/" ? "Profile" : "Discover"}</a>
+                <a href="/login">{this.props.user ? "Logout" : "Login"}</a>
               </div>
             </div>
           );

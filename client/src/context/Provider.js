@@ -4,7 +4,7 @@ import Context from "./Context";
 class Provider extends React.Component {
   state = {
     selectedBeer: {},
-    beersList: {}
+    beersList: []
   };
   render() {
     return (
