@@ -3,10 +3,12 @@ import ReactDOM from "react-dom";
 import "./index.css";
 
 import Provider from "./context/Provider";
+import Context from "./context/Context";
 
 import Header from "./components/Header";
 import Modal from "./components/Modal";
 import Search from "./components/Search";
+
 
 class App extends Component {
   componentDidMount() {
@@ -20,14 +22,19 @@ class App extends Component {
   };
 
   render() {
-    console.log(this.state.user);
     return (
       <Provider>
-        <div className="app">
-          <Header user={this.state.user} />
-          <Search />
-          <Modal />
-        </div>
+        <Context.Consumer>
+          {context => {
+            return (
+              <div className="app">
+                <Header user={this.state.user} />
+                <Search />
+                <Modal/>
+              </div>
+            );
+          }}
+        </Context.Consumer>
       </Provider>
     );
   }

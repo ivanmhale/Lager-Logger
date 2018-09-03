@@ -29,6 +29,8 @@ class Provider extends React.Component {
             this.setState({
               modalType: type,
               modalData: data
+            }, ()=>{
+              console.log(this.state.modalData);
             });
           }
         }}

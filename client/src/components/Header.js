@@ -16,7 +16,7 @@ class Header extends React.Component {
               </div>
               <div className="nav_container">
                 <div className="nav_item">{window.location.pathname === "/" ? "Profile" : "Discover"}</div>
-                <div onClick={()=> this.props.user ? window.location.pathname="/auth/logout" : context.setModal("input",{})} className="nav_item">{this.props.user ? "Logout" : "Login"}</div>
+                <div onClick={()=> this.props.user ? window.location.pathname="/auth/logout" : context.setModal("login",{})} className="nav_item">{this.props.user ? "Logout" : "Login"}</div>
               </div>
             </div>
           );

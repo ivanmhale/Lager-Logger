@@ -147,6 +147,9 @@ body {
     }
     &_close {
       font-size: 2rem;
+      &:hover{
+        cursor: pointer;
+      }
     }
   }
   &_body {
@@ -195,6 +198,33 @@ body {
       &_button {
         display: flex;
         justify-content: center;
+      }
+    }
+    &_beer{
+      display: grid;
+      grid-template-columns: 15rem 1fr;
+      &_image{
+        margin-right: 1rem;
+        display: flex;
+        align-items: center;
+        img{
+          width: 100%;
+        }
+      }
+      &_desc{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &>*:not(:last-child){
+          font-size: 1.2rem;
+          margin-bottom: 1rem;
+        }
+        &_head{
+          font-family: $pri-font;
+        }
+        &_description{
+          text-align: left;
+        }
       }
     }
   }
