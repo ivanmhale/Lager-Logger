@@ -199,6 +199,7 @@ class Modal extends Component {
             </button>
           </div>
         );
+        
       default:
         return;
     }
