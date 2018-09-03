@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   state = {
-    user: {}
+    user: null
   };
 
   render() {
@@ -26,7 +26,7 @@ class App extends Component {
         <div className="app">
           <Header user={this.state.user} />
           <Search />
-          {/* <Modal /> */}
+          <Modal />
         </div>
       </Provider>
     );

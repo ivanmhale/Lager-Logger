@@ -3,7 +3,20 @@ $col-1: #000000;
 $col-2: #ec576b;
 $col-3: #4ec5c1;
 $col-4: #e5e338;
-$border-grey: 1px solid darkgrey;;
+$border-grey: 1px solid darkgrey;
+
+@mixin sliding-background($color) {
+  background-image: linear-gradient(
+    135deg,
+    transparent 0%,
+    transparent 50%,
+    $color 50%
+  );
+  background-size: 300%;
+  &:hover {
+    background-position: 100%;
+  }
+}
 
 *,
 *:before,
@@ -12,18 +25,34 @@ $border-grey: 1px solid darkgrey;;
   margin: 0;
   padding: 0;
   border: none;
-  font-family: "Raleway", sans-serif;
   font-size: 1rem;
   outline: none;
+  text-decoration: none;
 }
 
-.btn{
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.btn {
   font-size: 1.5rem;
-  padding: 1.5rem;
   font-family: $pri-font;
-  border: $border-grey;
-  &:hover{
+  padding: 0.5rem;
+  transition-duration: 0.3s;
+  box-shadow: 0.2rem 0.2rem 0rem black;
+  &:hover {
     cursor: pointer;
+    transform: translateY(-0.2rem);
+    box-shadow: 0.4rem 0.4rem 0rem black;
+  }
+  &-pink {
+    @include sliding-background($col-2);
+  }
+  &-aqua {
+    @include sliding-background($col-3);
+  }
+  &-lime {
+    @include sliding-background($col-4);
   }
 }
 
@@ -31,13 +60,16 @@ $border-grey: 1px solid darkgrey;;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  font-family: $pri-font;
+  padding: 1rem;
   & > * {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap:1rem;
+    grid-column-gap: 1rem;
     justify-content: center;
     align-items: center;
+    & > *:first-child {
+      margin-right: 2rem;
+    }
   }
   .img_container {
     height: 5rem;
@@ -45,12 +77,24 @@ $border-grey: 1px solid darkgrey;;
       height: 100%;
     }
   }
+  .nav_item {
+    font-family: $pri-font;
+    font-size: 2rem;
+    @include sliding-background($col-4);
+    transition-duration: 0.3s;
+    padding: 1rem;
+    &:hover {
+      cursor: pointer;
+      background-position: 100%;
+      color: white;
+    }
+  }
 }
 
 .search {
   width: 100%;
   height: 4.5rem;
-  form{
+  form {
     display: grid;
     grid-template-columns: 1fr 4.5rem;
     align-items: center;
@@ -60,8 +104,138 @@ $border-grey: 1px solid darkgrey;;
       border: $border-grey;
       padding-left: 1rem;
     }
-    .search_button{
+    .search_button {
+      background-color: $col-3;
+      padding: 1.5rem;
+    }
+  }
+}
 
+.modal {
+  &_backface {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: max-content;
+  height: max-content;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: scroll;
+  background-color: #eeeeee;
+  box-shadow: 1rem 1rem 0rem rgba(0, 0, 0, 0.8);
+  padding: 2rem;
+
+  hr {
+    background-color: darkgrey;
+    height: 2px;
+    width: 80%;
+    margin: 1rem auto;
+  }
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    &_text {
+      font-size: 2rem;
+    }
+    &_close {
+      font-size: 2rem;
+    }
+  }
+  &_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &_login {
+      & > * {
+        margin: 1rem 0;
+      }
+      &_social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &_link {
+          color: white;
+          text-transform: uppercase;
+          letter-spacing: 0.1rem;
+          width: 20rem;
+          display: flex;
+          justify-content: space-around;
+          padding: .5rem;
+        }
+        .facebook {
+          background-color: #3b5998;
+          margin-bottom: .5rem;
+        }
+        .google {
+          background-color: #db4437;
+        }
+      }
+      &_form {
+        &_group {
+          display: flex;
+          flex-direction: column;
+          label {
+            font-size: 1.5rem;
+          }
+          input {
+            font-size: 1.5rem;
+            border: $border-grey;
+            padding: 0.3rem;
+          }
+        }
+      }
+      &_button {
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+.list_group{
+  width: 90%;
+  margin: auto;
+  &_item{
+    display: grid;
+    grid-template-columns: 10rem 1fr;
+    width: 100%;
+    background-color: #eeeeee;
+    margin: 1rem 0;
+    box-shadow: .5rem .5rem 0rem black;
+    transition-duration: .3s;
+
+    &_img{
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
+
+    &_desc{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      text-align: center;
+      &_name{
+        font-size: 2rem;
+      }
+      &_brewery{
+        font-family: $pri-font;
+        font-size: 1.5rem;
+      }
+    }
+    &:hover{
+      cursor: pointer;
+      transform: translateX(-5px);
     }
   }
 }

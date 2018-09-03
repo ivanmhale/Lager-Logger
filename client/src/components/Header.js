@@ -15,8 +15,8 @@ class Header extends React.Component {
                 <div className="img_container"><img src={untapptd} alt="Untapptd"/></div>
               </div>
               <div className="nav_container">
-                <a href="/profile">{window.location.pathname === "/" ? "Profile" : "Discover"}</a>
-                <a href="/login">{this.props.user ? "Logout" : "Login"}</a>
+                <div className="nav_item">{window.location.pathname === "/" ? "Profile" : "Discover"}</div>
+                <div onClick={()=> this.props.user ? window.location.pathname="/auth/logout" : context.setModal("input",{})} className="nav_item">{this.props.user ? "Logout" : "Login"}</div>
               </div>
             </div>
           );
