@@ -54,7 +54,7 @@ class Search extends Component {
                   type="text"
                   placeholder="Search for a beer"
                 />
-                <button className="btn btn-aqua search_button" type="submit">
+                <button className="btn search_button" type="submit">
                   Go
                 </button>
               </form>

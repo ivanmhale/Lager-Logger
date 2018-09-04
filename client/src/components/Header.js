@@ -10,15 +10,14 @@ class Header extends React.Component {
         {context => {
           return (
             <div className="header">
-              <div className="logo_container">
-                <div className="img_container">
+              <div className="nav_container">
+                <div className="nav_item">
                   <img src={Logo} alt="logo" />
                 </div>
-                <div className="img_container">
+                <a href="https://untappd.com/" target="_blank" className="nav_item">
+                Powered by
                   <img src={untapptd} alt="Untapptd" />
-                </div>
-              </div>
-              <div className="nav_container">
+                </a>
                 <a
                   href={
                     window.location.pathname === "/profile"

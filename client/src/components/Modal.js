@@ -66,6 +66,22 @@ class Modal extends Component {
             </span>
           </div>
         );
+        break;
+      case "edit":
+        return (
+          <div className="modal_header">
+            <span className="modal_header_text">
+              {context.modalData.props.beer_name}
+            </span>
+            <span
+              onClick={() => context.setModal(null, null)}
+              className="modal_header_close"
+            >
+              &times;
+            </span>
+          </div>
+        );
+        break;
       default:
         return;
     }
@@ -230,6 +246,38 @@ class Modal extends Component {
             </div>
           </div>
         );
+        break;
+      case "edit":
+        return (
+          <div className="modal_body_saving">
+            <div className="modal_body_saving_group range">
+              <div className="change_rating">
+                <label>Change your rating: </label>
+                <i>{context.modalData.props.rating}</i>
+              </div>
+              <div className="input_and_rating">
+                <input
+                  onChange={e => this.setState({ rating: e.target.value })}
+                  type="range"
+                  min="0"
+                  max="5"
+                />
+                <div className="rating">
+                  <div className="rating_number">{this.state.rating}</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="modal_body_saving_group comments">
+              <label>Change your comment/note:</label>
+              <input
+                onChange={e => this.setState({ comments: e.target.value })}
+                type="text"
+                placeholder={context.modalData.props.comments}
+              />
+            </div>
+          </div>
+        );
       default:
         return;
     }
@@ -267,17 +315,18 @@ class Modal extends Component {
                     bid: context.modalData.props.bid
                   }
                 });
-                context.setModal(null, null);
-                context.snackbar(
-                  "Removed " + context.modalData.props.beer_name
-                );
-                 window.location.href = "/profile";
+                window.location.href = "/profile";
               }}
               className="btn btn-pink"
             >
               Remove
             </button>
-            <button className="btn btn-lime">Edit</button>
+            <button
+              onClick={() => context.setModal("edit", context.modalData)}
+              className="btn btn-lime"
+            >
+              Edit
+            </button>
           </div>
         );
       case "saving":
@@ -287,13 +336,16 @@ class Modal extends Component {
               onClick={() => {
                 context.setModal("beer", context.modalData);
               }}
-              className="btn btn-aqua"
+              className="btn btn-pink"
             >
               Back
             </button>
             <button
               onClick={() => {
                 let beer = context.modalData.props;
+                if (!this.props.user.name) {
+                  return context.snackbar("You must be signed in.");
+                }
                 axios.post("/user/beers", {
                   userId: this.props.user.userId,
                   bid: beer.bid,
@@ -304,13 +356,41 @@ class Modal extends Component {
                 context.setModal(null, null);
                 context.snackbar(context.modalData.props.beer_name + " added.");
               }}
-              className="btn btn-aqua"
+              className="btn btn-lime"
             >
               Finish
             </button>
           </div>
         );
+      case "edit":
+        return (
+          <div className="modal_footer_saving">
+            <button
+              onClick={() => {
+                context.setModal("saved", context.modalData);
+              }}
+              className="btn btn-pink"
+            >
+              Back
+            </button>
+            <button
+              onClick={() => {
+                let beer = context.modalData.props;
 
+                axios.patch("/user/beers", {
+                  userId: this.props.user.userId,
+                  bid: beer.bid,
+                  rating: this.state.rating,
+                  comments: this.state.comments
+                });
+                window.location.href = "/profile";
+              }}
+              className="btn btn-lime"
+            >
+              Finish
+            </button>
+          </div>
+        );
       default:
         return;
     }
