@@ -62,8 +62,8 @@ module.exports = app => {
 
   app.delete("/user/beers", async (req, res) => {
     const { userId, bid } = req.body;
-    Saved.findOneAndDelete({ userId, bid }, () =>
-      console.log("Document found and deleted")
-    );
+    Saved.findOneAndDelete({ userId, bid }, doc => {
+      console.log("Document found and deleted");
+    });
   });
 };

@@ -29,6 +29,7 @@ class Search extends Component {
           beer_style={beer_style}
           beer_abv={beer_abv}
           brewery_name={brewery_name}
+          mode="beer"
         />
       );
     });

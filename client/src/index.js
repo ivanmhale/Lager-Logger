@@ -8,6 +8,7 @@ import Context from "./context/Context";
 import Header from "./components/Header";
 import Modal from "./components/Modal";
 import Search from "./components/Search";
+import Profile from "./components/Profile";
 
 class App extends Component {
   componentDidMount() {
@@ -20,6 +21,16 @@ class App extends Component {
     user: {}
   };
 
+  renderBody() {
+    switch (window.location.pathname) {
+      case "/profile":
+        return <Profile user={this.state.user} />;
+        break;
+      default:
+        return <Search />;
+    }
+  }
+
   render() {
     return (
       <Provider>
@@ -28,7 +39,7 @@ class App extends Component {
             return (
               <div className="app">
                 <Header user={this.state.user} />
-                <Search />
+                {this.renderBody()}
                 <Modal user={this.state.user} />
                 <div id="snackbar" />
               </div>

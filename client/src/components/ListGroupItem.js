@@ -8,7 +8,7 @@ const ListGroupItem = props => {
         return (
           <div
             className="list_group_item"
-            onClick={() => context.setModal("beer", { props })}
+            onClick={() => context.setModal(props.mode, { props })}
           >
             <div className="list_group_item_img">
               <img src={props.beer_label} alt={props.beer_name} />
