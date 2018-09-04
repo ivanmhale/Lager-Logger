@@ -3,6 +3,10 @@ import Context from "../context/Context";
 import axios from "axios";
 
 class Modal extends Component {
+  state = {
+    rating: 5,
+    comments: ""
+  };
   renderHeader(context) {
     switch (context.modalType) {
       case "login":
@@ -140,13 +144,32 @@ class Modal extends Component {
       case "saving":
         return (
           <div className="modal_body_saving">
-            <div className="modal_body_saving_group">
+            <div className="modal_body_saving_group range">
               <label>Leave a rating: </label>
-              <input type="range" min="0" max="5" />
+              <div className="input_and_rating">
+                <input
+                  onChange={e => this.setState({ rating: e.target.value })}
+                  type="range"
+                  min="0"
+                  max="5"
+                />
+                <div className="rating">
+                  <div className="rating_number">{this.state.rating}</div>
+                </div>
+              </div>
             </div>
-            <div className="modal_body_saving_group">
-              <label>Leave a comment/note</label>
-              <input type="text" />
+
+            <div className="modal_body_saving_group comments">
+              <label>Leave a comment/note:</label>
+              <input
+                onChange={e => this.setState({ comments: e.target.value })}
+                type="text"
+                placeholder={
+                  "What are your toughts on " +
+                  context.modalData.props.beer_name +
+                  "?"
+                }
+              />
             </div>
           </div>
         );
@@ -189,9 +212,15 @@ class Modal extends Component {
             </button>
             <button
               onClick={() => {
-                axios
-                  .post("/user/beers", {})
-                  .then(() => context.setModal(null, null));
+                axios.post("/user/beers", {
+                  userId: this.props.user.userId,
+                  bid: context.modalData.props.bid,
+                  beer: context.modalData.props,
+                  rating: this.state.rating,
+                  comments: this.state.comments
+                });
+                context.setModal(null, null);
+                context.snackbar(context.modalData.props.beer_name + " added.");
               }}
               className="btn btn-aqua"
             >
@@ -199,7 +228,7 @@ class Modal extends Component {
             </button>
           </div>
         );
-        
+
       default:
         return;
     }

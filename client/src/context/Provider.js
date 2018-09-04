@@ -6,7 +6,8 @@ class Provider extends React.Component {
     selectedBeer: {},
     beersList: null,
     modalType: null,
-    modalData: null
+    modalData: null,
+    snackbar: ""
   };
   render() {
     return (
@@ -16,6 +17,14 @@ class Provider extends React.Component {
           beersList: this.state.beersList,
           modalType: this.state.modalType,
           modalData: this.state.modalData,
+          snackbar: text => {
+            var x = document.getElementById("snackbar");
+            x.innerHTML = text;
+            x.className = "show";
+            setTimeout(function() {
+              x.className = x.className.replace("show", "");
+            }, 3000);
+          },
 
           setUser: selectedBeer => {
             this.setState({ selectedBeer });
@@ -29,8 +38,6 @@ class Provider extends React.Component {
             this.setState({
               modalType: type,
               modalData: data
-            }, ()=>{
-              console.log(this.state.modalData);
             });
           }
         }}

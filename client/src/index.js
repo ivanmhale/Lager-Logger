@@ -9,7 +9,6 @@ import Header from "./components/Header";
 import Modal from "./components/Modal";
 import Search from "./components/Search";
 
-
 class App extends Component {
   componentDidMount() {
     fetch("/auth/user")
@@ -18,7 +17,7 @@ class App extends Component {
   }
 
   state = {
-    user: null
+    user: {}
   };
 
   render() {
@@ -30,7 +29,8 @@ class App extends Component {
               <div className="app">
                 <Header user={this.state.user} />
                 <Search />
-                <Modal/>
+                <Modal user={this.state.user} />
+                <div id="snackbar" />
               </div>
             );
           }}

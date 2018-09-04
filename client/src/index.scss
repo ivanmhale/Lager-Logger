@@ -83,6 +83,7 @@ body {
     @include sliding-background($col-4);
     transition-duration: 0.3s;
     padding: 1rem;
+    color: black;
     &:hover {
       cursor: pointer;
       background-position: 100%;
@@ -103,6 +104,7 @@ body {
       width: 100%;
       border: $border-grey;
       padding-left: 1rem;
+      font-size: 2rem;
     }
     .search_button {
       background-color: $col-3;
@@ -147,7 +149,7 @@ body {
     }
     &_close {
       font-size: 2rem;
-      &:hover{
+      &:hover {
         cursor: pointer;
       }
     }
@@ -171,11 +173,11 @@ body {
           width: 20rem;
           display: flex;
           justify-content: space-around;
-          padding: .5rem;
+          padding: 0.5rem;
         }
         .facebook {
           background-color: #3b5998;
-          margin-bottom: .5rem;
+          margin-bottom: 0.5rem;
         }
         .google {
           background-color: #db4437;
@@ -200,72 +202,222 @@ body {
         justify-content: center;
       }
     }
-    &_beer{
+    &_beer {
       display: grid;
       grid-template-columns: 15rem 1fr;
-      &_image{
+      &_image {
         margin-right: 1rem;
         display: flex;
         align-items: center;
-        img{
+        img {
           width: 100%;
         }
       }
-      &_desc{
+      &_desc {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        &>*:not(:last-child){
+        & > *:not(:last-child) {
           font-size: 1.2rem;
           margin-bottom: 1rem;
         }
-        &_head{
+        &_head {
           font-family: $pri-font;
         }
-        &_description{
+        &_description {
           text-align: left;
         }
       }
     }
+    &_saving {
+      width: 30rem;
+      label {
+        font-family: $pri-font;
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+      }
+      .range {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 1rem;
+        .input_and_rating {
+          display: flex;
+          align-items: center;
+          width: 100%;
+          input {
+            -webkit-appearance: none;
+            width: calc(100%-6rem);
+            height: 5px;
+            background: darkgrey;
+            margin-right: 1rem;
+            &::-webkit-slider-thumb {
+              -webkit-appearance: none;
+              background-color: $col-2;
+              width: 2rem;
+              height: 2rem;
+              border-radius: 50%;
+              box-shadow: 0.2rem 0.2rem 0rem black;
+              &:hover {
+                cursor: pointer;
+              }
+            }
+          }
+        }
+
+        .rating {
+          -webkit-clip-path: polygon(
+            33% 0,
+            100% 0%,
+            100% 100%,
+            33% 100%,
+            33% 70%,
+            0 50%,
+            33% 30%
+          );
+          clip-path: polygon(
+            33% 0,
+            100% 0%,
+            100% 100%,
+            33% 100%,
+            33% 70%,
+            0 50%,
+            33% 30%
+          );
+          height: 4rem;
+          width: 6rem;
+          position: relative;
+          background-color: $col-3;
+          &_number {
+            position: absolute;
+            right: 0.75rem;
+            top: 1.75rem;
+            transform: translate(-50%, -50%);
+            font-size: 2.5rem;
+          }
+        }
+      }
+      .comments {
+        display: flex;
+        flex-direction: column;
+        input {
+          padding: 0.5rem;
+        }
+      }
+    }
+  }
+  &_footer {
+    &_saving {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 }
 
-.list_group{
+.list_group {
   width: 90%;
   margin: auto;
-  &_item{
+  &_item {
     display: grid;
     grid-template-columns: 10rem 1fr;
     width: 100%;
     background-color: #eeeeee;
     margin: 1rem 0;
-    box-shadow: .5rem .5rem 0rem black;
-    transition-duration: .3s;
+    box-shadow: 0.5rem 0.5rem 0rem black;
+    transition-duration: 0.3s;
 
-    &_img{
+    &_img {
       width: 100%;
-      img{
+      img {
         width: 100%;
       }
     }
 
-    &_desc{
+    &_desc {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
-      text-align: center;
-      &_name{
+      text-align: left;
+      &_name {
         font-size: 2rem;
       }
-      &_brewery{
+      &_brewery {
         font-family: $pri-font;
         font-size: 1.5rem;
       }
     }
-    &:hover{
+    &:hover {
       cursor: pointer;
-      transform: translateX(-5px);
+      transform: translate(-5px,-5px);
+      box-shadow: 0.75rem 0.75rem 0rem black;
     }
+  }
+}
+
+#snackbar {
+  visibility: hidden;
+  width: max-content;
+  max-width: 90%;
+  background-color: #333;
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 30px;
+}
+
+#snackbar.show {
+  visibility: visible; /* Show the snackbar */
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
   }
 }

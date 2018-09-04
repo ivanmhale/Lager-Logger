@@ -34,7 +34,7 @@ module.exports = app => {
 
     Saved.findOne({ userId, bid }).then(existingSaved => {
       if (existingSaved) {
-        done(null, existingSaved);
+        return;
       } else {
         new Saved({
           userId,
