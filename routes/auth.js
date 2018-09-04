@@ -1,7 +1,7 @@
 const passport = require("passport");
 const mongoose = require("mongoose");
 const User = mongoose.model("users");
-const initAuth = require("../middlewares/initAuth");
+const SignIn = require("../middlewares/SignIn");
 
 module.exports = app => {
   app.post("/auth/signup", (req, res) => {
@@ -14,7 +14,8 @@ module.exports = app => {
           res.send({ message: "Username already in use" });
         } else {
           var newUser = new User({
-            userId: username
+            userId: username,
+            name: username
           });
           newUser.password = newUser.hashPassword(password);
           newUser.save((err, user) => {
@@ -28,7 +29,7 @@ module.exports = app => {
     });
   });
 
-  app.post("/auth/init", initAuth, passport.authenticate("local"), (req, res) => {
+  app.post("/auth/init", SignIn, passport.authenticate("local"), (req, res) => {
     res.send(req.user);
   });
 

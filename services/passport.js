@@ -18,24 +18,23 @@ passport.deserializeUser((id, done) => {
 passport.use(
   new LocalStrategy((username, password, done) => {
     User.findOne({ userId: username }, (err, existingUser) => {
-      // if (err) {
-      //   done(err);
-      // } else {
-      //   if (existingUser) {
-      //     var valid = existingUser.comparePassword(
-      //       password,
-      //       existingUser.password
-      //     );
-      //     if (valid) {
-      //       done(null, existingUser);
-      //     } else {
-      //       return done(null, false, { message: "Invalid password" });
-      //     }
-      //   } else {
-      //     return done(null, false, { message: "Incorrect username" });
-      //   }
-      // }
-      console.log(profile);
+      if (err) {
+        done(err);
+      } else {
+        if (existingUser) {
+          var valid = existingUser.comparePassword(
+            password,
+            existingUser.password
+          );
+          if (valid) {
+            done(null, existingUser);
+          } else {
+            return done(null, false, { message: "Invalid password" });
+          }
+        } else {
+          return done(null, false, { message: "Incorrect username" });
+        }
+      }
     });
   })
 );

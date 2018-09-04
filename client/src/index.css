@@ -128,11 +128,12 @@ body {
     margin: 1rem auto; }
   .modal_header {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    align-items: center; }
     .modal_header_text {
       font-size: 2rem; }
     .modal_header_close {
-      font-size: 2rem; }
+      font-size: 3rem; }
       .modal_header_close:hover {
         cursor: pointer; }
   .modal_body {

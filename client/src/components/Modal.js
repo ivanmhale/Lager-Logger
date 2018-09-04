@@ -5,7 +5,10 @@ import axios from "axios";
 class Modal extends Component {
   state = {
     rating: 5,
-    comments: ""
+    comments: "",
+    username: "",
+    password: "",
+    confirm: ""
   };
   renderHeader(context) {
     switch (context.modalType) {
@@ -13,6 +16,19 @@ class Modal extends Component {
         return (
           <div className="modal_header">
             <span className="modal_header_text">Login</span>
+            <span
+              onClick={() => context.setModal(null, null)}
+              className="modal_header_close"
+            >
+              &times;
+            </span>
+          </div>
+        );
+        break;
+      case "newUser":
+        return (
+          <div className="modal_header">
+            <span className="modal_header_text">New User</span>
             <span
               onClick={() => context.setModal(null, null)}
               className="modal_header_close"
@@ -128,7 +144,7 @@ class Modal extends Component {
                 <div className="modal_body_login_form_group">
                   <label>Password</label>
                   <input
-                    type="text"
+                    type="password"
                     placeholder="Enter your password"
                     onChange={e => {
                       this.setState({ password: e.target.value });
@@ -137,7 +153,86 @@ class Modal extends Component {
                 </div>
               </div>
               <div className="modal_body_login_button">
-                <button className="btn btn-pink">Sign in</button>
+                <button
+                  onClick={() => {
+                    axios
+                      .post("/auth/init", {
+                        username: this.state.username,
+                        password: this.state.password
+                      })
+                      .then(res => {
+                        if (res.data.message) {
+                          return context.snackbar(res.data.message);
+                        }
+                        window.location.pathname = "/profile";
+                      });
+                  }}
+                  className="btn btn-pink"
+                >
+                  Sign in
+                </button>
+              </div>
+            </div>
+          </div>
+        );
+        break;
+      case "newUser":
+        return (
+          <div className="modal_body">
+            <div className="modal_body_login">
+              <div className="modal_body_login_social">
+                <a
+                  className="modal_body_login_social_link facebook"
+                  href="/auth/facebook"
+                >
+                  <span>
+                    <i className="fab fa-google" />
+                  </span>
+                  <span>|</span>
+                  <span>Sign in with Facebook</span>
+                </a>
+                <a
+                  className="modal_body_login_social_link google"
+                  href="/auth/google"
+                >
+                  <span>
+                    <i className="fab fa-facebook-f" />
+                  </span>
+                  <span>|</span>
+                  <span>Sign in with Google</span>
+                </a>
+              </div>
+              <div className="modal_body_login_form">
+                <div className="modal_body_login_form_group">
+                  <label>Username</label>
+                  <input
+                    type="text"
+                    placeholder="Enter your username"
+                    onChange={e => {
+                      this.setState({ username: e.target.value });
+                    }}
+                  />
+                </div>
+                <div className="modal_body_login_form_group">
+                  <label>Password</label>
+                  <input
+                    type="password"
+                    placeholder="Enter your password"
+                    onChange={e => {
+                      this.setState({ password: e.target.value });
+                    }}
+                  />
+                </div>
+                <div className="modal_body_login_form_group">
+                  <label>Confirm Password</label>
+                  <input
+                    type="password"
+                    placeholder="Confirm your password"
+                    onChange={e => {
+                      this.setState({ confirm: e.target.value });
+                    }}
+                  />
+                </div>
               </div>
             </div>
           </div>
@@ -288,7 +383,56 @@ class Modal extends Component {
       case "login":
         return (
           <div className="modal_footer">
-            <button className="btn btn-lime">New User?</button>
+            <button
+              onClick={() => context.setModal("newUser", null)}
+              className="btn btn-lime"
+            >
+              New User?
+            </button>
+          </div>
+        );
+        break;
+      case "newUser":
+        return (
+          <div className="modal_footer_saving">
+            <button
+              onClick={() => {
+                context.setModal("login", null);
+              }}
+              className="btn btn-pink"
+            >
+              Back
+            </button>
+            <button
+              onClick={() => {
+                if (this.state.username.length < 6) {
+                  return context.snackbar("Username too short");
+                } else if (this.state.password.length < 6) {
+                  return context.snackbar("Password too short");
+                } else if (this.state.password !== this.state.confirm) {
+                  return context.snackbar("Passwords don't match");
+                }
+                axios
+                  .post("/auth/signup", {
+                    username: this.state.username,
+                    password: this.state.password
+                  })
+                  .then(res => {
+                    if (res.data.message) {
+                      return context.snackbar(res.data.message);
+                    }
+                    axios
+                      .post("/auth/login", {
+                        username: this.state.username,
+                        password: this.state.password
+                      })
+                      .then(() => (window.location.pathname = "/profile"));
+                  });
+              }}
+              className="btn btn-lime"
+            >
+              Submit
+            </button>
           </div>
         );
         break;
@@ -329,6 +473,7 @@ class Modal extends Component {
             </button>
           </div>
         );
+        break;
       case "saving":
         return (
           <div className="modal_footer_saving">
@@ -343,7 +488,7 @@ class Modal extends Component {
             <button
               onClick={() => {
                 let beer = context.modalData.props;
-                if (!this.props.user.name) {
+                if (!this.props.user.userId) {
                   return context.snackbar("You must be signed in.");
                 }
                 axios.post("/user/beers", {

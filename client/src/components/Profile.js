@@ -14,7 +14,7 @@ class Profile extends Component {
   };
 
   renderHeader() {
-    if (!this.props.user.name) {
+    if (!this.props.user.userId) {
       return "You must sign in first!";
     } else if (this.state.beers.length === 0) {
       return "List is empty. Go to the pub!";

@@ -30,9 +30,9 @@ class Header extends React.Component {
                     ? "Discover"
                     : "Profile"}
                 </a>
-                {this.props.user.name ? (
+                {this.props.user.userId ? (
                   <a href="/auth/logout" className="nav_item">
-                    {this.props.user ? "Logout" : "Login"}
+                    Logout
                   </a>
                 ) : (
                   <div
