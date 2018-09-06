@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Context from "../context/Context";
 import axios from "axios";
+import untapptd from "../assets/untapptd.png";
 
 class Modal extends Component {
   state = {
@@ -12,6 +13,22 @@ class Modal extends Component {
   };
   renderHeader(context) {
     switch (context.modalType) {
+      case "nav":
+        return (
+          <div className="modal_header">
+            <span className="modal_header_text">
+              {this.props.user.userId
+                ? "Welcome " + this.props.user.name
+                : "Not signed in."}
+            </span>
+            <span
+              onClick={() => context.setModal(null, null)}
+              className="modal_header_close"
+            >
+              &times;
+            </span>
+          </div>
+        );
       case "login":
         return (
           <div className="modal_header">
@@ -24,7 +41,7 @@ class Modal extends Component {
             </span>
           </div>
         );
-        break;
+
       case "newUser":
         return (
           <div className="modal_header">
@@ -37,7 +54,7 @@ class Modal extends Component {
             </span>
           </div>
         );
-        break;
+
       case "beer":
         return (
           <div className="modal_header">
@@ -52,7 +69,7 @@ class Modal extends Component {
             </span>
           </div>
         );
-        break;
+
       case "saved":
         return (
           <div className="modal_header">
@@ -67,7 +84,7 @@ class Modal extends Component {
             </span>
           </div>
         );
-        break;
+
       case "saving":
         return (
           <div className="modal_header">
@@ -82,7 +99,7 @@ class Modal extends Component {
             </span>
           </div>
         );
-        break;
+
       case "edit":
         return (
           <div className="modal_header">
@@ -97,13 +114,61 @@ class Modal extends Component {
             </span>
           </div>
         );
-        break;
+
       default:
         return;
     }
   }
   renderBody(context) {
     switch (context.modalType) {
+      case "nav":
+        return (
+          <div className="modal_body_nav">
+
+
+
+            <a
+              href="https://untappd.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="modal_body_nav_item"
+            >
+              Untapptd API
+            </a>
+
+
+
+            <a
+              href={
+                window.location.pathname === "/profile"
+                  ? "/discover"
+                  : "/profile"
+              }
+              className="modal_body_nav_item"
+            >
+              {window.location.pathname === "/profile" ? "Discover" : "Profile"}
+            </a>
+
+
+
+            {this.props.user.userId ? (
+              <a href="/auth/logout" className="modal_body_nav_item">
+                Logout
+              </a>
+            ) : (
+              <div
+                onClick={() => context.setModal("login", {})}
+                className="modal_body_nav_item"
+              >
+                Login
+              </div>
+            )}
+
+
+
+
+          </div>
+        );
       case "login":
         return (
           <div className="modal_body">
@@ -175,7 +240,7 @@ class Modal extends Component {
             </div>
           </div>
         );
-        break;
+
       case "newUser":
         return (
           <div className="modal_body">
@@ -237,7 +302,7 @@ class Modal extends Component {
             </div>
           </div>
         );
-        break;
+
       case "beer":
         return (
           <div className="modal_body_beer">
@@ -266,7 +331,7 @@ class Modal extends Component {
             </div>
           </div>
         );
-        break;
+
       case "saved":
         return (
           <div className="modal_body_beer">
@@ -308,7 +373,7 @@ class Modal extends Component {
             </div>
           </div>
         );
-        break;
+
       case "saving":
         return (
           <div className="modal_body_saving">
@@ -341,7 +406,7 @@ class Modal extends Component {
             </div>
           </div>
         );
-        break;
+
       case "edit":
         return (
           <div className="modal_body_saving">
@@ -391,7 +456,7 @@ class Modal extends Component {
             </button>
           </div>
         );
-        break;
+
       case "newUser":
         return (
           <div className="modal_footer_saving">
@@ -435,7 +500,7 @@ class Modal extends Component {
             </button>
           </div>
         );
-        break;
+
       case "beer":
         return (
           <div className="modal_footer_beer">
@@ -447,7 +512,7 @@ class Modal extends Component {
             </button>
           </div>
         );
-        break;
+
       case "saved":
         return (
           <div className="modal_footer_saving">
@@ -473,7 +538,7 @@ class Modal extends Component {
             </button>
           </div>
         );
-        break;
+
       case "saving":
         return (
           <div className="modal_footer_saving">

@@ -25,7 +25,6 @@ class App extends Component {
     switch (window.location.pathname) {
       case "/profile":
         return <Profile user={this.state.user} />;
-        break;
       default:
         return <Search />;
     }

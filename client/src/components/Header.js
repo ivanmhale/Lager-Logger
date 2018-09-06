@@ -14,8 +14,13 @@ class Header extends React.Component {
                 <div className="nav_item">
                   <img src={Logo} alt="logo" />
                 </div>
-                <a href="https://untappd.com/" target="_blank" className="nav_item">
-                Powered by
+                <a
+                  href="https://untappd.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="nav_item"
+                >
+                  Powered by
                   <img src={untapptd} alt="Untapptd" />
                 </a>
                 <a
@@ -42,6 +47,16 @@ class Header extends React.Component {
                     Login
                   </div>
                 )}
+              </div>
+              <div className="mobile_nav">
+                <div onClick={() => context.setModal("nav", null)} className="mobile_nav_item_btn">
+                  <span
+                    className="mobile_nav_item_btn_bar"
+                  />
+                </div>
+                <div className="mobile_nav_item">
+                  <img src={Logo} alt="logo" />
+                </div>
               </div>
             </div>
           );
