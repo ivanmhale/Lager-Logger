@@ -179,17 +179,18 @@ class Modal extends Component {
                   href="/auth/facebook"
                 >
                   <span>
-                    <i className="fab fa-google" />
+                    <i className="fab fa-facebook-f" />
                   </span>
                   <span>|</span>
                   <span>Sign in with Facebook</span>
                 </a>
+
                 <a
                   className="modal_body_login_social_link google"
                   href="/auth/google"
                 >
                   <span>
-                    <i className="fab fa-facebook-f" />
+                    <i className="fab fa-google" />
                   </span>
                   <span>|</span>
                   <span>Sign in with Google</span>
