@@ -8,4 +8,5 @@ FaceBook, Google, and local oAuth. Save your favorite beers from the Untappd API
 4. MongoDB
 
 [Link to app](https://lagerlog.herokuapp.com/)
+
 [Link to Untappd API site](https://untappd.com/api/docs)
