@@ -9,6 +9,7 @@ import Header from "./components/Header";
 import Modal from "./components/Modal";
 import Search from "./components/Search";
 import Profile from "./components/Profile";
+import SnackbarCompopnent from "./components/Snackbar";
 
 class App extends Component {
   componentDidMount() {
@@ -40,7 +41,7 @@ class App extends Component {
                 <Header user={this.state.user} />
                 {this.renderBody()}
                 <Modal user={this.state.user} />
-                <div id="snackbar" />
+                <SnackbarCompopnent />
               </div>
             );
           }}

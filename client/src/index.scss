@@ -66,9 +66,9 @@ body {
   z-index: 9;
 
   & + div {
-    margin-top: 72px;
+    margin-top: 90px;
     @media screen and (min-width: 700px) {
-      margin-top: 184px;
+      margin-top: 200px;
     }
   }
 
