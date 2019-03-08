@@ -1,0 +1,19 @@
+$col-sky: #7cdbd5;
+$col-coral: #f53240;
+$col-golden: #f9be02;
+$col-aqua: #02c8a7;
+$col-facebook: #3b5998;
+$col-google: #db4437;
+
+@import url("https://fonts.googleapis.com/css?family=Lato|Raleway");
+
+$ff-lato: "Lato", sans-serif;
+$ff-raleway: "Raleway", sans-serif;
+
+@mixin btn-outline ($color) {
+  color: $color;
+  &:hover {
+    background-color: $color;
+    color: white;
+  }
+}

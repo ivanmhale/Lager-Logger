@@ -4,6 +4,8 @@ const User = mongoose.model("users");
 const SignIn = require("../middlewares/SignIn");
 
 module.exports = app => {
+
+  // FIRST TIME LOCAL SIGN-UP
   app.post("/auth/signup", (req, res) => {
     const { username, password } = req.body;
     User.findOne({ userId: username }, (err, doc) => {
@@ -29,10 +31,12 @@ module.exports = app => {
     });
   });
 
+  // WHAT IS THIS
   app.post("/auth/init", SignIn, passport.authenticate("local"), (req, res) => {
     res.send(req.user);
   });
 
+  // WHAT IS THIS
   app.post("/auth/login", passport.authenticate("local"), (req, res) => {
     res.send(req.user);
   });

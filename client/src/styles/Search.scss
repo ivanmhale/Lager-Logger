@@ -1,0 +1,22 @@
+@import "globals";
+#List {
+  margin-top: 100px;
+  z-index: 0;
+
+  #table {
+    width: max-content;
+    max-width: 100%;
+
+    margin: auto;
+    background-color: #eee;
+    .trow {
+      height: 100px;
+      border-bottom: 3px solid $col-golden;
+      cursor: pointer;
+      img {
+        height: 5rem;
+        border-radius: 50%;
+      }
+    }
+  }
+}

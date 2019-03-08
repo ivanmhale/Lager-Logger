@@ -1,0 +1,97 @@
+@import "globals";
+.profile {
+  &_drawer {
+    .user_panel {
+      padding: 3rem;
+      .buttons {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+      }
+      .form {
+        display: flex;
+        flex-direction: column;
+        & > * {
+          margin-bottom: 1rem;
+        }
+        #message_signin {
+          width: 100%;
+          text-align: center;
+          color: red;
+        }
+      }
+
+      &_info {
+        text-align: center;
+        .img_container {
+          width: 10rem;
+          margin: auto;
+        }
+        img {
+          width: 100%;
+        }
+      }
+
+      .table {
+        &_body {
+        }
+
+        &_row {
+          height: min-content;
+        }
+
+        &_cell {
+          p {
+            margin: 0;
+            padding: 0;
+          }
+          .rating {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            &_num {
+              font-size: 2.3rem;
+            }
+          }
+          .name {
+            font-size: 1rem;
+            margin: 0;
+            width: min-content;
+            white-space: nowrap;
+          }
+
+          &-img {
+            height: 4rem;
+            align-items: center;
+            img {
+              height: 100%;
+            }
+          }
+          padding: 0;
+          &:not(:last-child) {
+            padding-right: 1rem;
+          }
+        }
+      }
+    }
+    .btn {
+      &_login {
+        letter-spacing: 0.1rem;
+        &-fb {
+          @include btn-outline($col-facebook);
+        }
+        &-google {
+          @include btn-outline($col-google);
+        }
+      }
+      &_submit {
+        @include btn-outline($col-aqua);
+      }
+      &_signup {
+        width: 100%;
+        @include btn-outline($col-aqua);
+      }
+    }
+  }
+}

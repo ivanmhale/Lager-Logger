@@ -1,0 +1,52 @@
+@import "globals";
+.header {
+  z-index: 100;
+  form {
+    width: 100%;
+  }
+  .toolbar {
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    background-color: $col-coral;
+    &_tools {
+      display: flex;
+      align-items: center;
+      & > *:not(:first-child) {
+        cursor: pointer;
+      }
+      & > *:not(:last-child) {
+        margin-right: 1rem;
+      }
+    }
+  }
+  .search {
+    &_container {
+      width: 20rem;
+      height: 2rem;
+      position: relative;
+      display: flex;
+    }
+
+    &_icon {
+      padding: 0.2rem;
+    }
+
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: #eee;
+    position: absolute;
+    right: 0;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+
+    &_inputbase {
+      margin-left: 0.5rem;
+      width: 100%;
+    }
+  }
+  .grow {
+    width: 100%;
+  }
+}
