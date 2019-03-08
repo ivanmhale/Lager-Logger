@@ -1,6 +1,17 @@
 @import "globals";
 .header {
   z-index: 100;
+  .logo {
+    display: flex;
+    align-items: center;
+    &_container{
+      margin-left: 2rem;
+      height: 100%;
+    }
+    img{
+      height: 100%;
+    }
+  }
   form {
     width: 100%;
   }
@@ -9,6 +20,9 @@
     display: flex;
     justify-content: space-between;
     background-color: $col-coral;
+    @include R(tab-land){
+      flex-direction: column;
+    }
     &_tools {
       display: flex;
       align-items: center;

@@ -6,6 +6,7 @@ import InputBase from "@material-ui/core/InputBase";
 import AccountCircle from "@material-ui/icons/AccountCircle";
 import PowerSettingsNew from "@material-ui/icons/PowerSettingsNew";
 import SearchIcon from "@material-ui/icons/Search";
+import Attribution from "../assets/attribution.jpg";
 
 const renderLogout = context => {
   if (context.state.user.userId) {
@@ -26,7 +27,12 @@ const Header = () => {
   return (
     <AppBar className="header">
       <Toolbar className="toolbar">
-        <h1>LagerLogger</h1>
+        <div className="logo">
+          <h1>LagerLogger</h1>
+          <div className="logo_container">
+            <img src={Attribution} alt="Powered by UNTAPPD"/>
+          </div>
+        </div>
         <div className="toolbar_tools">
           <div className="search_container">
             <div className="search">

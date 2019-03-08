@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato|Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato|Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato|Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato|Raleway");
+@import url("https://fonts.googleapis.com/css?family=Lato|Raleway");
+*,
+*::before,
+*::after {
+  font-family: "Lato", sans-serif; }
+
+.header {
+  z-index: 100; }
+  .header .logo {
+    display: flex;
+    align-items: center; }
+    .header .logo_container {
+      margin-left: 2rem;
+      height: 100%; }
+    .header .logo img {
+      height: 100%; }
+  .header form {
+    width: 100%; }
+  .header .toolbar {
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f53240; }
+    @media only screen and (max-width: 75em) {
+      .header .toolbar {
+        flex-direction: column; } }
+    .header .toolbar_tools {
+      display: flex;
+      align-items: center; }
+      .header .toolbar_tools > *:not(:first-child) {
+        cursor: pointer; }
+      .header .toolbar_tools > *:not(:last-child) {
+        margin-right: 1rem; }
+  .header .search {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: #eee;
+    position: absolute;
+    right: 0;
+    border-radius: 10px;
+    transition-duration: 0.5s; }
+    .header .search_container {
+      width: 20rem;
+      height: 2rem;
+      position: relative;
+      display: flex; }
+    .header .search_icon {
+      padding: 0.2rem; }
+    .header .search_inputbase {
+      margin-left: 0.5rem;
+      width: 100%; }
+  .header .grow {
+    width: 100%; }
+
+.profile_drawer .user_panel {
+  padding: 3rem; }
+  .profile_drawer .user_panel .buttons {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem; }
+  .profile_drawer .user_panel .form {
+    display: flex;
+    flex-direction: column; }
+    .profile_drawer .user_panel .form > * {
+      margin-bottom: 1rem; }
+    .profile_drawer .user_panel .form #message_signin {
+      width: 100%;
+      text-align: center;
+      color: red; }
+  .profile_drawer .user_panel_info {
+    text-align: center; }
+    .profile_drawer .user_panel_info .img_container {
+      width: 10rem;
+      margin: auto; }
+    .profile_drawer .user_panel_info img {
+      width: 100%; }
+  .profile_drawer .user_panel .table_row {
+    height: min-content; }
+  .profile_drawer .user_panel .table_cell {
+    padding: 0; }
+    .profile_drawer .user_panel .table_cell p {
+      margin: 0;
+      padding: 0; }
+    .profile_drawer .user_panel .table_cell .rating {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .profile_drawer .user_panel .table_cell .rating_num {
+        font-size: 2.3rem; }
+    .profile_drawer .user_panel .table_cell .name {
+      font-size: 1rem;
+      margin: 0;
+      width: min-content;
+      white-space: nowrap; }
+    .profile_drawer .user_panel .table_cell-img {
+      height: 4rem;
+      align-items: center; }
+      .profile_drawer .user_panel .table_cell-img img {
+        height: 100%; }
+    .profile_drawer .user_panel .table_cell:not(:last-child) {
+      padding-right: 1rem; }
+
+.profile_drawer .btn_login {
+  letter-spacing: 0.1rem; }
+  .profile_drawer .btn_login-fb {
+    color: #3b5998; }
+    .profile_drawer .btn_login-fb:hover {
+      background-color: #3b5998;
+      color: white; }
+  .profile_drawer .btn_login-google {
+    color: #db4437; }
+    .profile_drawer .btn_login-google:hover {
+      background-color: #db4437;
+      color: white; }
+
+.profile_drawer .btn_submit {
+  color: #02c8a7; }
+  .profile_drawer .btn_submit:hover {
+    background-color: #02c8a7;
+    color: white; }
+
+.profile_drawer .btn_signup {
+  width: 100%;
+  color: #02c8a7; }
+  .profile_drawer .btn_signup:hover {
+    background-color: #02c8a7;
+    color: white; }
+
+.profile_drawer .user_panel {
+  padding: 3rem; }
+  .profile_drawer .user_panel .buttons {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem; }
+  .profile_drawer .user_panel .form {
+    display: flex;
+    flex-direction: column; }
+    .profile_drawer .user_panel .form > * {
+      margin-bottom: 1rem; }
+    .profile_drawer .user_panel .form #message_signin {
+      width: 100%;
+      text-align: center;
+      color: red; }
+  .profile_drawer .user_panel_info {
+    text-align: center; }
+    .profile_drawer .user_panel_info .img_container {
+      width: 10rem;
+      margin: auto; }
+    .profile_drawer .user_panel_info img {
+      width: 100%; }
+  .profile_drawer .user_panel .table_row {
+    height: min-content; }
+  .profile_drawer .user_panel .table_cell {
+    padding: 0; }
+    .profile_drawer .user_panel .table_cell p {
+      margin: 0;
+      padding: 0; }
+    .profile_drawer .user_panel .table_cell .rating {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .profile_drawer .user_panel .table_cell .rating_num {
+        font-size: 2.3rem; }
+    .profile_drawer .user_panel .table_cell .name {
+      font-size: 1rem;
+      margin: 0;
+      width: min-content;
+      white-space: nowrap; }
+    .profile_drawer .user_panel .table_cell-img {
+      height: 4rem;
+      align-items: center; }
+      .profile_drawer .user_panel .table_cell-img img {
+        height: 100%; }
+    .profile_drawer .user_panel .table_cell:not(:last-child) {
+      padding-right: 1rem; }
+
+.profile_drawer .btn_login {
+  letter-spacing: 0.1rem; }
+  .profile_drawer .btn_login-fb {
+    color: #3b5998; }
+    .profile_drawer .btn_login-fb:hover {
+      background-color: #3b5998;
+      color: white; }
+  .profile_drawer .btn_login-google {
+    color: #db4437; }
+    .profile_drawer .btn_login-google:hover {
+      background-color: #db4437;
+      color: white; }
+
+.profile_drawer .btn_submit {
+  color: #02c8a7; }
+  .profile_drawer .btn_submit:hover {
+    background-color: #02c8a7;
+    color: white; }
+
+.profile_drawer .btn_signup {
+  width: 100%;
+  color: #02c8a7; }
+  .profile_drawer .btn_signup:hover {
+    background-color: #02c8a7;
+    color: white; }
+
+#List {
+  margin-top: 100px;
+  z-index: 0; }
+  #List #table {
+    width: max-content;
+    max-width: 100%;
+    margin: auto;
+    background-color: #eee; }
+    #List #table .trow {
+      height: 100px;
+      border-bottom: 3px solid #f9be02;
+      cursor: pointer; }
+      #List #table .trow img {
+        height: 5rem;
+        border-radius: 50%; }
+
+.popover > * {
+  padding: 0.5rem;
+  font-size: 1rem; }
+
+.modal {
+  outline: none;
+  padding: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90vw;
+  max-height: 90vh;
+  overflow: scroll; }
+  .modal_container {
+    width: 100vw;
+    height: 100vh;
+    position: relative; }
+  .modal_body .btn_finish {
+    color: #02c8a7; }
+    .modal_body .btn_finish:hover {
+      background-color: #02c8a7;
+      color: white; }
+  .modal_body .btn_action {
+    color: #02c8a7; }
+    .modal_body .btn_action:hover {
+      background-color: #02c8a7;
+      color: white; }
+  .modal_body .btn_danger {
+    color: red; }
+    .modal_body .btn_danger:hover {
+      background-color: red;
+      color: white; }
+  .modal_body-info {
+    display: flex; }
+    @media screen and (max-width: 600px) {
+      .modal_body-info {
+        flex-direction: column;
+        align-items: center; }
+        .modal_body-info .modal_body_side-1 {
+          margin-right: 0;
+          align-items: center;
+          width: 100%; }
+          .modal_body-info .modal_body_side-1::after {
+            content: "";
+            height: 2px;
+            width: 100%;
+            background-color: red; }
+        .modal_body-info .modal_body_side-2 {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          width: 100%; } }
+  .modal_body-buttons {
+    display: flex;
+    justify-content: space-around; }
+  .modal_body_side-1 {
+    width: 50%;
+    text-align: center;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .modal_body_side-1 img {
+      width: 100%; }
+  .modal_body_side-2 {
+    width: 50%;
+    text-align: center; }
+    .modal_body_side-2 img {
+      border-radius: 50%; }
+  .modal_body .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden; }
+    .modal_body .section_beer .img_container {
+      height: 10rem; }
+      .modal_body .section_beer .img_container img {
+        height: 100%; }
+    .modal_body .section_input .rating {
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+      font-style: italic; }
+    .modal_body .section_input .comments {
+      width: 100%;
+      margin-bottom: 1rem; }
+      .modal_body .section_input .comments > * {
+        width: 100%; }
+  .modal_body_editing {
+    display: flex;
+    flex-direction: column; }
+    .modal_body_editing .saved_beer_info {
+      display: flex;
+      flex-direction: column; }
+      .modal_body_editing .saved_beer_info .side_1 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center; }
+        .modal_body_editing .saved_beer_info .side_1 .stats {
+          display: flex;
+          align-items: center; }
+          .modal_body_editing .saved_beer_info .side_1 .stats > * {
+            width: 50%; }
+      .modal_body_editing .saved_beer_info .side_2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .modal_body_editing .saved_beer_info .side_2 p {
+          font-size: 1.2rem;
+          font-style: italic; }
+        .modal_body_editing .saved_beer_info .side_2 #editComments {
+          outline: none;
+          border: none;
+          border-bottom: 2px solid #f53240;
+          width: 100%;
+          font-size: 1.2rem; }
+
+#spinner {
+  color: #f9be02; }
