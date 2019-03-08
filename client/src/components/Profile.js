@@ -114,7 +114,7 @@ class Profile extends React.Component {
         <div className="user_panel_info">
           <h2>{user.name}</h2>
           <div className="img_container">
-            <img src={user.img ? user.img : user_placeholder} alt={user.name} />
+            <img src={user.photo ? user.photo : user_placeholder} alt={user.name} />
           </div>
         </div>
         <br />
