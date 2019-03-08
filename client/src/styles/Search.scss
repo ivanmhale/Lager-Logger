@@ -2,6 +2,9 @@
 #List {
   margin-top: 100px;
   z-index: 0;
+  @include R(tab-land) {
+    margin-top: 150px;
+  }
 
   #table {
     width: max-content;

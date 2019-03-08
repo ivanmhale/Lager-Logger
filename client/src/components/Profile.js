@@ -7,7 +7,7 @@ import Table from "@material-ui/core/Table";
 import TableBody from "@material-ui/core/TableBody";
 import TableRow from "@material-ui/core/TableRow";
 import TableCell from "@material-ui/core/TableCell";
-import user_placeholder from "../assets/user_placeholder.jpg";
+import userPhotoPlaceholder from "../assets/user_placeholder.jpg";
 
 class Profile extends React.Component {
   renderLogin = context => {
@@ -109,12 +109,24 @@ class Profile extends React.Component {
 
   renderUser = context => {
     const user = context.state.user;
+    let userPhoto;
+
+    if (user.photo && user.photo.indexOf("platform-lookaside") > -1) {
+      userPhoto = `https://graph.facebook.com/${
+        user.userId
+      }/picture?type=large`;
+    } else if (user.photo) {
+      userPhoto = user.photo;
+    } else {
+      userPhoto = userPhotoPlaceholder;
+    }
+
     return (
       <div className="user_panel">
         <div className="user_panel_info">
           <h2>{user.name}</h2>
           <div className="img_container">
-            <img src={user.photo ? user.photo : user_placeholder} alt={user.name} />
+            <img src={userPhoto} alt={user.name} />
           </div>
         </div>
         <br />

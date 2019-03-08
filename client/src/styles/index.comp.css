@@ -79,7 +79,8 @@
       width: 10rem;
       margin: auto; }
     .profile_drawer .user_panel_info img {
-      width: 100%; }
+      width: 100%;
+      border-radius: 50%; }
   .profile_drawer .user_panel .table_row {
     height: min-content; }
   .profile_drawer .user_panel .table_cell {
@@ -153,7 +154,8 @@
       width: 10rem;
       margin: auto; }
     .profile_drawer .user_panel_info img {
-      width: 100%; }
+      width: 100%;
+      border-radius: 50%; }
   .profile_drawer .user_panel .table_row {
     height: min-content; }
   .profile_drawer .user_panel .table_cell {

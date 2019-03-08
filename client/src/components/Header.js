@@ -24,13 +24,21 @@ const renderLogout = context => {
 
 const Header = () => {
   const context = useContext(Context);
+
+  const user = context.state.user || null;
+  let userPhoto;
+  if (user.photo && user.photo.indexOf("platform-lookaside") > -1) {
+    userPhoto = `https://graph.facebook.com/${user.userId}/picture?type=large`;
+  } else if (user.photo) {
+    userPhoto = user.photo;
+  }
   return (
     <AppBar className="header">
       <Toolbar className="toolbar">
         <div className="logo">
           <h1>LagerLogger</h1>
           <div className="logo_container">
-            <img src={Attribution} alt="Powered by UNTAPPD"/>
+            <img src={Attribution} alt="Powered by UNTAPPD" />
           </div>
         </div>
         <div className="toolbar_tools">
@@ -60,10 +68,16 @@ const Header = () => {
               </form>
             </div>
           </div>
-          <AccountCircle
-            onClick={() => context.toggleDrawer()}
-            style={{ fontSize: 40 }}
-          />
+          {user.userId ? (
+            <button className="avatar" onClick={() => context.toggleDrawer()}>
+              <img src={userPhoto} alt={user.name} />
+            </button>
+          ) : (
+            <AccountCircle
+              onClick={() => context.toggleDrawer()}
+              style={{ fontSize: 40 }}
+            />
+          )}
           {renderLogout(context)}
         </div>
       </Toolbar>

@@ -4,11 +4,11 @@
   .logo {
     display: flex;
     align-items: center;
-    &_container{
+    &_container {
       margin-left: 2rem;
       height: 100%;
     }
-    img{
+    img {
       height: 100%;
     }
   }
@@ -20,8 +20,9 @@
     display: flex;
     justify-content: space-between;
     background-color: $col-coral;
-    @include R(tab-land){
+    @include R(tab-land) {
       flex-direction: column;
+      padding-bottom: 1rem;
     }
     &_tools {
       display: flex;
@@ -31,6 +32,18 @@
       }
       & > *:not(:last-child) {
         margin-right: 1rem;
+      }
+    }
+    .avatar {
+      width: 40px;
+      height: 40px;
+      background-color: transparent;
+      padding: 0;
+      border: none;
+      outline: none;
+      img{
+        border-radius: 50%;
+        width: 100%;
       }
     }
   }
