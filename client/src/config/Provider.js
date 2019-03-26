@@ -123,9 +123,11 @@ export default class Provider extends React.Component {
               saving: false
             });
           },
-          removeBeer: data => {
+          removeBeer: async data => {
             axios.delete("/user/beers", { data });
-            window.location.pathname = "/profile";
+            setTimeout(() => {
+              window.location.pathname = "/profile";
+            }, 500);
           },
           viewSavedBeer: savedBeer => this.setState({ savedBeer }),
           toggleEditBeer: () => this.setState({ editing: !this.state.editing }),
