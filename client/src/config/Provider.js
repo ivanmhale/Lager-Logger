@@ -27,10 +27,10 @@ export default class Provider extends React.Component {
     });
 
     const userRes = await fetch("/auth/user");
-    const parsedUSer = await userRes.json();
+    const parsedUser = await userRes.json();
     this.setState(
       {
-        user: parsedUSer
+        user: parsedUser
       },
       () => {
         this.setUserBeers(this.state.user.userId);
@@ -40,6 +40,8 @@ export default class Provider extends React.Component {
     if (window.location.href.indexOf("/profile") > -1) {
       this.setState({ openDrawer: true });
     }
+
+    document.title = this.state.user.name || "Lager Logger";
   };
 
   setUserBeers = async userId => {
@@ -55,7 +57,6 @@ export default class Provider extends React.Component {
     document.getElementById("message_signin").innerHTML = message;
   };
   render() {
-    console.log(this.state);
     return (
       <Context.Provider
         value={{
@@ -133,7 +134,7 @@ export default class Provider extends React.Component {
           toggleEditBeer: () => this.setState({ editing: !this.state.editing }),
           saveChanges: async reqObj => {
             await axios.patch("/user/beers", reqObj);
-            window.location.pathname = "/profile";
+            window.location.reload();
           }
         }}
       >
