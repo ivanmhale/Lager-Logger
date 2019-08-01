@@ -3,6 +3,7 @@ const { untapptdClientID, untapptdClientSecret } = require("../config/keys");
 const several = require("../seed/several.json");
 const mongoose = require("mongoose");
 const Saved = mongoose.model("saved");
+const clearCache = require("../middlewares/clearCache");
 
 module.exports = app => {
   app.get("/search/:term", (req, res) => {
@@ -29,7 +30,7 @@ module.exports = app => {
       .catch(err => console.log(err));
   });
 
-  app.post("/user/beers", (req, res) => {
+  app.post("/user/beers", clearCache, (req, res) => {
     let { userId, bid, beer, rating, comments } = req.body;
 
     Saved.findOne({ userId, bid }).then(existingSaved => {
@@ -48,7 +49,8 @@ module.exports = app => {
   });
 
   app.get("/user/beers", async (req, res) => {
-    const beers = await Saved.find({ userId: req.user.userId });
+    const beers = await Saved.find({ userId: req.user.userId })
+        .cache({key: req.user.userId});
     res.send(beers);
   });
 
