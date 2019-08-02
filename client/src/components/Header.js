@@ -74,6 +74,7 @@ const Header = () => {
             </button>
           ) : (
             <AccountCircle
+              className="account_circle"
               onClick={() => context.toggleDrawer()}
               style={{ fontSize: 40 }}
             />
