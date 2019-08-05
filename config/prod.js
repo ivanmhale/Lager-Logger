@@ -6,5 +6,6 @@ module.exports = {
   facebookAppId: process.env.facebookAppId,
   facebookAppSecret: process.env.facebookAppSecret,
   mongoURI: process.env.mongoURI,
+  redisUrl: process.env.REDIS_URL,
   cookieKey: process.env.cookieKey
 };

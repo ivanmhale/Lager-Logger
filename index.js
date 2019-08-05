@@ -40,7 +40,7 @@ app.get(
   }
 );
 
-if (process.env.NODE_ENV === "production") {
+if (['production', 'ci'].includes(process.env.NODE_ENV)) {
   const path = require("path");
 
   app.use(express.static(path.join(__dirname, "client/build")));

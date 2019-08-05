@@ -42,7 +42,7 @@ const renderSaving = context => {
           Back
         </Button>
         <Button
-        className="btn btn_finish"
+        className="btn btn_finish btn_submit"
           onClick={() =>
             context.saveBeer({
               userId: state.user.userId,
@@ -93,7 +93,7 @@ const renderDetails = context => {
       <div className="modal_body-info">
         <div className="modal_body_side-1">
           <img src={beer_label} alt={beer_name} />
-          <h1>{beer_name}</h1>
+          <h1 className={"beer_name"} >{beer_name}</h1>
         </div>
         <div className="modal_body_side-2">
           <h3>
@@ -125,7 +125,7 @@ const renderDetails = context => {
           className="btn btn_finish"
           variant="outlined"
           onClick={() => {
-            !context.state.user.userId
+            !context.state.user._id
               ? context.setPopover("btn_save", "You must be signed in!")
               : context.setSaving();
           }}
